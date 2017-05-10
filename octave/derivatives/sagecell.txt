@@ -1,0 +1,164 @@
+http://sagecell.sagemath.org/?q=rggrkm
+
+%// Doan Minh Dang (www.syscop.de/people/dang-doan), 2017-05-10
+%// Minh hoa dung so phuc de tinh dao ham bang Octave / MATLAB
+%// Uu diem: tinh nhanh va chinh xac den computer precision
+%// O day so sanh voi phuong phap xap xi finite difference
+%// Tai lieu tham khao: xem phan 5.2.1 o sach nay:
+%// https://www.syscop.de/files/2017ss/NOC/script/book-NOCSE.pdf
+
+format long;
+
+f1=@(x) x^2/2;
+x1=pi;
+f2=@(x) x.^2/2;
+x2=[pi;2];
+
+function df=jacob_c(func, x)
+h=1e-50;
+df=imag(feval(func, x+i*h))/h;
+end
+
+function df=jacob_fd(func, x)
+h=1e-10;
+df=(feval(func, x+h) - feval(func, x))/h;
+end
+
+disp('Tinh dao ham don gian, so sanh do chinh xac:')
+f1
+x1
+df_complex=jacob_c(f1, x1)
+df_finite_difference=jacob_fd(f1, x1)
+
+disp('Thi nghiem de thay hon, so sanh them thoi gian tinh toan:')
+f2
+x2
+tic
+df_complex=jacob_c(f2, x2)
+toc
+tic
+df_finite_difference=jacob_fd(f2, x2)
+toc
+
+---
+
+Output:
+
+Tinh dao ham don gian, so sanh do chinh xac:
+f1 =
+
+@(x) x ^ 2 / 2
+
+x1 =  3.14159265358979
+df_complex =  3.14159265358979
+df_finite_difference =  3.14159365188971
+Thi nghiem de thay hon, so sanh them thoi gian tinh toan:
+f2 =
+
+@(x) x .^ 2 / 2
+
+x2 =
+
+   3.14159265358979
+   2.00000000000000
+
+df_complex =
+
+   3.14159265358979
+   2.00000000000000
+
+Elapsed time is 0.000115871 seconds.
+df_finite_difference =
+
+   3.14159365188971
+   2.00000016548074
+
+Elapsed time is 0.000101805 seconds.
+
+---
+
+http://sagecell.sagemath.org/?q=lgjzky
+
+%// Doan Minh Dang (www.syscop.de/people/dang-doan), 2017-05-10
+%// Minh hoa dung so phuc de tinh Jacobian bang Octave / MATLAB
+%// Uu diem: tinh nhanh va chinh xac den computer precision
+%// O day so sanh voi phuong phap xap xi finite difference
+%// Cach tinh toan so nay huu ich trong cac thuat toan can dao ham,
+%//   chang han: cac giai thuat toi uu hoa su dung dao ham.
+%// Xem minh hoa de hieu hon voi ham 1 bien o:
+%// http://sagecell.sagemath.org/?q=rggrkm
+%// Tai lieu tham khao: xem phan 5.2.1 o sach nay:
+%// https://www.syscop.de/files/2017ss/NOC/script/book-NOCSE.pdf
+
+format long;
+
+f=@(x) [x(1)^2/2;100*(x(2)-x(1)^2)^2+(x(1)-1)^2];
+%// f(2) la ham Rosenbrock
+y=[pi;3];
+
+%// Luu y khi dung voi MATLAB / Octave tren may tinh:
+%// Tach tung function ra file rieng, dat ten_file == ten_function.m
+
+function dfp=dirgrad_c(func, x, p)
+%// Tinh dao ham theo huong (directional derivative)
+%// Dua tren phan imaginary cua ham so voi bien so phuc (complex)
+h=1e-50;
+dfp=imag(feval(func, x+i*h*p))/h;
+end
+
+function jf=jacob_c(func, x)
+%// Tinh Jacobian qua dao ham theo huong cua tung basis vector
+%// Su dung ham tinh dao ham theo huong voi bien complex
+n=length(x);
+jf=[];
+for kk=1:n
+p = [zeros(kk-1,1); 1; zeros(n-kk, 1)];
+jf=[jf,dirgrad_c(func, x, p)];
+end
+end
+
+function dfp=dirgrad_fd(func, x, p)
+%// Tinh dao ham theo huong (directional derivative)
+%// Dua tren phuong phap xap xi huu han (finite difference) 
+h=1e-8;
+dfp=(feval(func, x+h*p) - feval(func, x))/h;
+end
+
+function jf=jacob_fd(func, x)
+%// Tinh Jacobian qua dao ham theo huong cua tung basis vector
+%// Su dung ham tinh dao ham theo huong bang finite difference
+n=length(x);
+jf=[];
+for kk=1:n
+p = [zeros(kk-1,1); 1; zeros(n-kk, 1)];
+jf=[jf,dirgrad_fd(func, x, p)];
+end
+end
+
+f
+y
+jacobian_complex=jacob_c(f, y)
+jacobian_finite_difference=jacob_fd(f, y)
+
+---
+
+Output:
+
+f =
+
+@(x) [x(1) ^ 2 / 2; 100 * (x(2) - x(1) ^ 2) ^ 2 + (x(1) - 1) ^ 2]
+
+y =
+
+   3.14159265358979
+   3.00000000000000
+
+jacobian_complex =
+
+   3.14159265358979e+00   0.00000000000000e+00
+   8.63688267311936e+03  -1.37392088021787e+03
+
+jacobian_finite_difference =
+
+   3.14159267489345e+00   0.00000000000000e+00
+   8.63688283061492e+03  -1.37392089527566e+03
