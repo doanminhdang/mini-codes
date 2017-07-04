@@ -21,35 +21,37 @@ paper_list = raw_list.split(",")
 keyword = 'Model predictive and optimization-based control'
 output_file = keyword+'.csv'
 
-source_list = [\
-'IFAC17_ContentListWeb_1.html',\
-'IFAC17_ContentListWeb_2.html',\
-'IFAC17_ContentListWeb_3.html',\
-'IFAC17_ContentListWeb_4.html',\
-'IFAC17_ContentListWeb_5.html'\
-]
+source_list = [
+  'IFAC17_ContentListWeb_1.html',
+  'IFAC17_ContentListWeb_2.html',
+  'IFAC17_ContentListWeb_3.html',
+  'IFAC17_ContentListWeb_4.html',
+  'IFAC17_ContentListWeb_5.html'
+  ]
 
 # Algorithm parameters
 right_offset = 3000
-right_offset_title =300
+right_offset_title = 300
 csv_splitter = ','
 
 result_lines = []
+
 
 def get_title(source_file, paper_code):
     # Extract the title of the paper with paper_code from source_file
     with open(source_file) as objFile:
         text = objFile.read()
 
-    if (text.find(paper_code)>=0):
-        position_code=text.find(paper_code)
+    if (text.find(paper_code) >= 0):
+        position_code = text.find(paper_code)
         selected_text = text[position_code:position_code+right_offset]
         position_viewAbstract = selected_text.find('viewAbstract')
         title_text = selected_text[position_viewAbstract:position_viewAbstract+right_offset_title]
-        position_start_title=title_text.find('>')+1
-        position_end_title=title_text.find('<',position_start_title)
+        position_start_title = title_text.find('>') + 1
+        position_end_title = title_text.find('<', position_start_title)
         title = title_text[position_start_title:position_end_title]
         return title
+
 
 for paper_code in paper_list:
     for source_file in source_list:
