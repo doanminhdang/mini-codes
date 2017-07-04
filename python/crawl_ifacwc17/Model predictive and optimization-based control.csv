@@ -1,51 +1,51 @@
-Model predictive and optimization-based control; FrA19.1;Optimizing Control of Wave Energy Converter with Losses and Fatigue in Power Take Off (I)
-Model predictive and optimization-based control; FrM27.1;Integrating Process Safety Considerations in Lyapunov-Based Model Predictive Control (I)
-Model predictive and optimization-based control; FrM27.2;Framework for Combined Diagnostics  Prognostics and Optimal Operation of a Subsea Gas Compression System (I)
-Model predictive and optimization-based control; FrM27.3;Incipient Actuator Fault Handling in Nonlinear Model Predictive Control (I)
-Model predictive and optimization-based control; FrM27.4;Forecast-Triggered Fault-Tolerant Model Predictive Control of Nonlinear Processes (I)
-Model predictive and optimization-based control; FrM27.5;Stochastic Nonlinear Model Predictive Control with Active Model Discrimination: A Closed-Loop Fault Diagnosis Application (I)
-Model predictive and optimization-based control; MoA01.6;Advanced Control for Energy Management of Grid-Connected Hybrid Power Systems in the Sugar Cane Industry
-Model predictive and optimization-based control; MoA01.11;Electrical Power Distribution System Reconfiguration: Case Study of a Real-Life Grid in Croatia
-Model predictive and optimization-based control; MoA02.4;On the Way to Purge Volume Control During Purge Processes of a Fuel Cell System by a Predictive Control Strategy
-Model predictive and optimization-based control; MoA02.6;Economic MPC Applied to Generation Scheduling in CSP Plants
-Model predictive and optimization-based control; MoA28.1;Model-Based Fault-Tolerant Control with Robustness to Unanticipated Faults (I)
-Model predictive and optimization-based control; MoA28.2;Reducing the Energy Footprint of Grinding Circuits: The Process Control Paradigm (I)
-Model predictive and optimization-based control; MoM19.4;Optimal Partitioning of a Boiler-Turbine Unit for Fuzzy Model Predictive Control
-Model predictive and optimization-based control; MoP22.2;Cost-Optimal Model Predictive Scheduling of Home Appliances (I)
-Model predictive and optimization-based control; MoP27.1;Fault-Tolerant Economic Model Predictive Control Using Empirical Models (I)
-Model predictive and optimization-based control; MoP27.3;Offset-Free Robust MPC of Systems with Mixed Stochastic and Deterministic Uncertainty (I)
-Model predictive and optimization-based control; MoP27.4;Polynomial Chaos-Based H2-Optimal Static Output Feedback Control of Systems with Probabilistic Parametric Uncertainties (I)
-Model predictive and optimization-based control; MoP27.5;A Thermodynamic Library for Simulation and Optimization of Dynamic Processes
-Model predictive and optimization-based control; MoP27.6;Arbitrary Polynomial Chaos for Uncertainty Propagation of Correlated Random Variables in Dynamic Systems (I)
-Model predictive and optimization-based control; ThA14.3;Optimization-Based Online Decision Support Tool for Electric Arc Furnace Operation
-Model predictive and optimization-based control; ThA14.5;Distributed Model Predictive Control of Centrifugal Compressor Systems
-Model predictive and optimization-based control; ThA22.2;An Intelligent Dual Optimization Approach for Improved Load Following of Supercritical Power Unit Based on Condensate Throttling (I)
-Model predictive and optimization-based control; ThA27.1;From Consumption to Prosumption - Operational Cost Optimization for Refrigeration System with Heat Waste Recovery
-Model predictive and optimization-based control; ThA27.5;Distributed Model Predictive Energy Optimization for 'Plug-And-Play' DGs in Hybrid Micro-Grid
-Model predictive and optimization-based control; ThM10.1;Nested Distributed Model Predictive Control
-Model predictive and optimization-based control; ThM10.2;Distributed MPC: Guaranteeing Global Stability from Locally Designed Tubes
-Model predictive and optimization-based control; ThM27.3;Distributed Model Predictive Control of Process Networks: Impact of Control Architecture
-Model predictive and optimization-based control; ThM27.5;Distributed Differentially Private Model Predictive Control for Energy Storage
-Model predictive and optimization-based control; ThM27.6;Constrained Bundle Methods with Inexact Minimization Applied to the Energy Regulation Provision Problem
-Model predictive and optimization-based control; ThP13.5;Model Predictive Path-Following Control for Airborne Wind Energy Systems (I)
-Model predictive and optimization-based control; ThP27.2;Gas Phase Train in Upstream Oil & Gas Fields: PART-III Control System Design
-Model predictive and optimization-based control; ThP27.4;Control of the State-Of-Charge of a Li-Ion Battery Cell Via Reference Governor
-Model predictive and optimization-based control; ThP27.6;Model-Based Optimal Experiment Design for Nonlinear Parameter Estimation Using Exact Confidence Regions
-Model predictive and optimization-based control; TuA14.2;Domestic Heat Generation and Distribution with Time-Variant Receding Horizon Control (I)
-Model predictive and optimization-based control; TuA14.6;Model Predictive Control for Hydronic Heating Systems in Residential Buildings (I)
-Model predictive and optimization-based control; TuA22.6;Adjoint-Based Model Predictive Control of Wind Farms: Beyond the Quasi Steady-State Power Maximization (I)
-Model predictive and optimization-based control; TuA27.1;Robust Multi-Parametric Control of Continuous-Time Linear Dynamic Systems (I)
-Model predictive and optimization-based control; TuA27.2;Real-Time Optimization Via Modifier Adaptation Using Partial Plant Models (I)
-Model predictive and optimization-based control; TuA27.4;Run-To-Run Optimization of Batch Processes Using Set-Based Constraints (I)
-Model predictive and optimization-based control; TuM27.1;Improved Directional Derivatives for Modifier-Adaptation Schemes (I)
-Model predictive and optimization-based control; TuM27.4;Use of Transient Measurements for Static Real-Time Optimization (I)
-Model predictive and optimization-based control; TuM27.5;Distributed Modifier Adaptation Using a Coordinator and Measured Interconnection Variables (I)
-Model predictive and optimization-based control; WeM27.1;A Valve Stiction Tolerant Formulation of MPC for Industrial Processes
-Model predictive and optimization-based control; WeM27.2;Energy Savings in Data Centers: A Framework for Modelling and Control of Servers� Cooling
-Model predictive and optimization-based control; WeM27.3;A Hierarchical MPC for Multi-Objective Mixed-Integer Optimisation Applied to Redundant Refrigerat
-Model predictive and optimization-based control; WeM27.4;Online Constraint Adaptation in Economic Model Predictive Control
-Model predictive and optimization-based control; WeM27.6;An Adaptive Dual MPC Scheme Based on Output Error Models Parameterized Using Generalized Orthonormal Basis Filters
-Model predictive and optimization-based control; WeP19.2;Fault Tolerant Control of Wind Turbine Using Robust Model Predictive Min-Max Approach
-Model predictive and optimization-based control; WeP22.5;Economic Model Predictive Control for Optimal Operation of Home Microgrid with Photovoltaic-Combined Heat and Power Storage Systems (I)
-Model predictive and optimization-based control; WeP27.1;Finite State Estimation and Control of a Multi-Input CSTR Benchmark
-Model predictive and optimization-based control; WeP28.4;Model Predictive Control of an Exothermic Pressure Leach Circuit
+Model predictive and optimization-based control, FrA19.1,Optimizing Control of Wave Energy Converter with Losses and Fatigue in Power Take Off (I)
+Model predictive and optimization-based control, FrM27.1,Integrating Process Safety Considerations in Lyapunov-Based Model Predictive Control (I)
+Model predictive and optimization-based control, FrM27.2,Framework for Combined Diagnostics  Prognostics and Optimal Operation of a Subsea Gas Compression System (I)
+Model predictive and optimization-based control, FrM27.3,Incipient Actuator Fault Handling in Nonlinear Model Predictive Control (I)
+Model predictive and optimization-based control, FrM27.4,Forecast-Triggered Fault-Tolerant Model Predictive Control of Nonlinear Processes (I)
+Model predictive and optimization-based control, FrM27.5,Stochastic Nonlinear Model Predictive Control with Active Model Discrimination: A Closed-Loop Fault Diagnosis Application (I)
+Model predictive and optimization-based control, MoA01.6,Advanced Control for Energy Management of Grid-Connected Hybrid Power Systems in the Sugar Cane Industry
+Model predictive and optimization-based control, MoA01.11,Electrical Power Distribution System Reconfiguration: Case Study of a Real-Life Grid in Croatia
+Model predictive and optimization-based control, MoA02.4,On the Way to Purge Volume Control During Purge Processes of a Fuel Cell System by a Predictive Control Strategy
+Model predictive and optimization-based control, MoA02.6,Economic MPC Applied to Generation Scheduling in CSP Plants
+Model predictive and optimization-based control, MoA28.1,Model-Based Fault-Tolerant Control with Robustness to Unanticipated Faults (I)
+Model predictive and optimization-based control, MoA28.2,Reducing the Energy Footprint of Grinding Circuits: The Process Control Paradigm (I)
+Model predictive and optimization-based control, MoM19.4,Optimal Partitioning of a Boiler-Turbine Unit for Fuzzy Model Predictive Control
+Model predictive and optimization-based control, MoP22.2,Cost-Optimal Model Predictive Scheduling of Home Appliances (I)
+Model predictive and optimization-based control, MoP27.1,Fault-Tolerant Economic Model Predictive Control Using Empirical Models (I)
+Model predictive and optimization-based control, MoP27.3,Offset-Free Robust MPC of Systems with Mixed Stochastic and Deterministic Uncertainty (I)
+Model predictive and optimization-based control, MoP27.4,Polynomial Chaos-Based H2-Optimal Static Output Feedback Control of Systems with Probabilistic Parametric Uncertainties (I)
+Model predictive and optimization-based control, MoP27.5,A Thermodynamic Library for Simulation and Optimization of Dynamic Processes
+Model predictive and optimization-based control, MoP27.6,Arbitrary Polynomial Chaos for Uncertainty Propagation of Correlated Random Variables in Dynamic Systems (I)
+Model predictive and optimization-based control, ThA14.3,Optimization-Based Online Decision Support Tool for Electric Arc Furnace Operation
+Model predictive and optimization-based control, ThA14.5,Distributed Model Predictive Control of Centrifugal Compressor Systems
+Model predictive and optimization-based control, ThA22.2,An Intelligent Dual Optimization Approach for Improved Load Following of Supercritical Power Unit Based on Condensate Throttling (I)
+Model predictive and optimization-based control, ThA27.1,From Consumption to Prosumption - Operational Cost Optimization for Refrigeration System with Heat Waste Recovery
+Model predictive and optimization-based control, ThA27.5,Distributed Model Predictive Energy Optimization for 'Plug-And-Play' DGs in Hybrid Micro-Grid
+Model predictive and optimization-based control, ThM10.1,Nested Distributed Model Predictive Control
+Model predictive and optimization-based control, ThM10.2,Distributed MPC: Guaranteeing Global Stability from Locally Designed Tubes
+Model predictive and optimization-based control, ThM27.3,Distributed Model Predictive Control of Process Networks: Impact of Control Architecture
+Model predictive and optimization-based control, ThM27.5,Distributed Differentially Private Model Predictive Control for Energy Storage
+Model predictive and optimization-based control, ThM27.6,Constrained Bundle Methods with Inexact Minimization Applied to the Energy Regulation Provision Problem
+Model predictive and optimization-based control, ThP13.5,Model Predictive Path-Following Control for Airborne Wind Energy Systems (I)
+Model predictive and optimization-based control, ThP27.2,Gas Phase Train in Upstream Oil & Gas Fields: PART-III Control System Design
+Model predictive and optimization-based control, ThP27.4,Control of the State-Of-Charge of a Li-Ion Battery Cell Via Reference Governor
+Model predictive and optimization-based control, ThP27.6,Model-Based Optimal Experiment Design for Nonlinear Parameter Estimation Using Exact Confidence Regions
+Model predictive and optimization-based control, TuA14.2,Domestic Heat Generation and Distribution with Time-Variant Receding Horizon Control (I)
+Model predictive and optimization-based control, TuA14.6,Model Predictive Control for Hydronic Heating Systems in Residential Buildings (I)
+Model predictive and optimization-based control, TuA22.6,Adjoint-Based Model Predictive Control of Wind Farms: Beyond the Quasi Steady-State Power Maximization (I)
+Model predictive and optimization-based control, TuA27.1,Robust Multi-Parametric Control of Continuous-Time Linear Dynamic Systems (I)
+Model predictive and optimization-based control, TuA27.2,Real-Time Optimization Via Modifier Adaptation Using Partial Plant Models (I)
+Model predictive and optimization-based control, TuA27.4,Run-To-Run Optimization of Batch Processes Using Set-Based Constraints (I)
+Model predictive and optimization-based control, TuM27.1,Improved Directional Derivatives for Modifier-Adaptation Schemes (I)
+Model predictive and optimization-based control, TuM27.4,Use of Transient Measurements for Static Real-Time Optimization (I)
+Model predictive and optimization-based control, TuM27.5,Distributed Modifier Adaptation Using a Coordinator and Measured Interconnection Variables (I)
+Model predictive and optimization-based control, WeM27.1,A Valve Stiction Tolerant Formulation of MPC for Industrial Processes
+Model predictive and optimization-based control, WeM27.2,Energy Savings in Data Centers: A Framework for Modelling and Control of Servers� Cooling
+Model predictive and optimization-based control, WeM27.3,A Hierarchical MPC for Multi-Objective Mixed-Integer Optimisation Applied to Redundant Refrigerat
+Model predictive and optimization-based control, WeM27.4,Online Constraint Adaptation in Economic Model Predictive Control
+Model predictive and optimization-based control, WeM27.6,An Adaptive Dual MPC Scheme Based on Output Error Models Parameterized Using Generalized Orthonormal Basis Filters
+Model predictive and optimization-based control, WeP19.2,Fault Tolerant Control of Wind Turbine Using Robust Model Predictive Min-Max Approach
+Model predictive and optimization-based control, WeP22.5,Economic Model Predictive Control for Optimal Operation of Home Microgrid with Photovoltaic-Combined Heat and Power Storage Systems (I)
+Model predictive and optimization-based control, WeP27.1,Finite State Estimation and Control of a Multi-Input CSTR Benchmark
+Model predictive and optimization-based control, WeP28.4,Model Predictive Control of an Exothermic Pressure Leach Circuit

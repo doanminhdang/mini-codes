@@ -24,7 +24,7 @@ output_file = keyword+'.csv'
 # Algorithm parameters
 right_offset = 3000
 right_offset_title =300
-csv_splitter = ';'
+csv_splitter = ','
 
 source_list = [\
 'IFAC17_ContentListWeb_1.html',\
