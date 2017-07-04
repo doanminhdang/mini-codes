@@ -1,0 +1,57 @@
+Distributed control and estimation, FrA08.1,Stabilizing Patterned Distributed Systems by State and Measurement Feedback
+Distributed control and estimation, FrA08.2,DINS: A Distributed Scheme for Sensor Fusion Over Fading Channels
+Distributed control and estimation, FrA08.4,A Framework for Distributed Control Based on Overlapping Estimation for Cooperative Tasks
+Distributed control and estimation, FrA08.6,On Event-Based Distributed Kalman Filter with Information Matrix Triggers
+Distributed control and estimation, FrA12.1,Collective Optimization Problems with Optimal Decentralized Selfish Strategies
+Distributed control and estimation, FrA12.3,Distributed Random-Fixed Projected Algorithms for Constrained Optimization Over Digraphs
+Distributed control and estimation, FrM07.1,A Distributed Fault Detection and Isolation Algorithm Based on Moving Horizon Estimation (I)
+Distributed control and estimation, FrM08.5,Distributed Event-Triggered Subgradient Method for Convex Optimization with a Common Constraint Set
+Distributed control and estimation, FrM08.6,Separation in Coupled Event-Triggered Networked Control Systems (I)
+Distributed control and estimation, FrM12.1,A Passivity-Based Distributed Reference Governor for Constrained Robotic Networks
+Distributed control and estimation, FrM12.3,Leader-Following Attitude Consensus of Multiple Rigid Body Systems by an Adaptive Distributed Observer Approach
+Distributed control and estimation, FrM24.1,Decentralized Recongurable Multi-Robot Coordination from Local Connectivity and Collision Avoidance Specications (I)
+Distributed control and estimation, MoA12.1,Controlling a Triangular Flexible Formation of Autonomous Agents
+Distributed control and estimation, MoA12.2,Average Consensus with Asynchronous Updates and Unreliable Communication
+Distributed control and estimation, MoA12.6,Enhancing Convergence Toward Consensus in Leader-Follower Networks
+Distributed control and estimation, MoM12.6,Distributed Decoupling of Partially-Unknown Interconnected Linear Multiagent Systems: State and Output Feedback Approaches
+Distributed control and estimation, MoP01.4,Mean-Field Analysis of the Convergence Time of Message-Passing Computation of Harmonic Influence in Social Networks
+Distributed control and estimation, MoP01.7,Robust Average Formation Tracking for Multi-Agent Systems with Multiple Leaders
+Distributed control and estimation, MoP01.9,Distributed Estimation in Uncalibrated Heterogeneous Networks
+Distributed control and estimation, MoP01.11,Distributed Behavioral Control for Second-Order Nonlinear Multi-Agent Systems
+Distributed control and estimation, MoP01.13,Random Set Approach to Distributed Multivehicle SLAM
+Distributed control and estimation, MoP01.14,Low-Rank Distributed Consensus Controller Design for Linear Multi-Agent Systems under Randomly Switching Directed Topologies and Model Uncertainties
+Distributed control and estimation, MoP02.3,Consensus Control of High-Order Multi-Agent Systems with Antagonistic Interactions and Measurement Noises
+Distributed control and estimation, MoP02.4,Data Aggregation Based Estimation for Sensor Network with Communication Delay
+Distributed control and estimation, MoP02.5,Distributed Consensus-Based Kalman Filtering Considering Subspace Decomposition
+Distributed control and estimation, MoP02.6,Aggregate State Control of Large-Scale Systems Via Networked Controllers
+Distributed control and estimation, MoP02.8,Vehicular Platoons in Cyclic Interconnections with Constant Inter-Vehicle Spacing
+Distributed control and estimation, MoP02.11,Information Structure Design in Team Decision Problems
+Distributed control and estimation, MoP02.12,Safe Learning for Distributed Systems with Bounded Uncertainties
+Distributed control and estimation, MoP02.13,Exponential Least Squares Solvers for Linear Equations Over Networks
+Distributed control and estimation, MoP03.4,Structure Preserving H-Infinity Optimal PI Control
+Distributed control and estimation, MoP03.7,Application of Distributed Model Predictive Approaches to Temperature and CO2 Concentration Control in Buildings
+Distributed control and estimation, MoP03.11,Multi-Role Coverage Control for Multi-Color Mass Games: A Voronoi-Based Cut-In Approach
+Distributed control and estimation, MoP03.12,Bayesian Online Learning for Information-Based Multi-Agent Exploration with Unknown Radio Signal Distribution
+Distributed control and estimation, ThA12.2,Large-Scale Distributed Kalman Filtering Via an Optimization Approach (I)
+Distributed control and estimation, ThA12.3,Sparse Linear-Quadratic-Gaussian Control in Networked Systems (I)
+Distributed control and estimation, ThM12.6,Static Teams with Common Information
+Distributed control and estimation, ThM22.6,Distributed Negotiation with a Class of Quadratic Cost Functions
+Distributed control and estimation, ThP12.3,Exponential Stability of LMS-Based Distributed Adaptive Filters (I)
+Distributed control and estimation, ThP12.4,A First-Order Prediction-Correction Algorithm for Time-Varying (Constrained) Optimization (I)
+Distributed control and estimation, ThP12.5,Distributed Kalman Filtering for Time-Space Gaussian Processes (I)
+Distributed control and estimation, ThP12.6,A Distributed Voltage Stability Margin for Power Distribution Networks (I)
+Distributed control and estimation, TuA08.5,Distributed Zonotopic Set-Membership State Estimation Based on Optimization Methods with Partial Projection (I)
+Distributed control and estimation, TuA08.6,On Design of Interval Observers for Parabolic PDEs (I)
+Distributed control and estimation, TuM05.3,An Optimal Execution Problem in Finance with Acquisition and Liquidation Objectives: An MFG Formulation
+Distributed control and estimation, TuM12.1,A Distributed Algorithm with Consistency for PageRank-Like Linear Algebraic Systems
+Distributed control and estimation, TuM12.5,mathcal{H}_{infty} Robustness in Mechanical and Power Networks
+Distributed control and estimation, TuM24.3,Decentralized State Feedback Design for Multilinear Time-Invariant Systems (I)
+Distributed control and estimation, TuP05.5,Distributed Nash Equilibrium Seeking Via the Alternating Direction Method of Multipliers
+Distributed control and estimation, TuP12.3,Data-Rate and Network Coding Co-Design with Stability and Capacity Constraints
+Distributed control and estimation, WeA08.5,Strong Structural Input and State Observability of LTV Network Systems with Multiple Unknown Inputs (I)
+Distributed control and estimation, WeM08.2,Voltage Control in Distributed Generation under Measurement Falsification Attacks (I)
+Distributed control and estimation, WeM24.1,Distributed Model Predictive Control with Event-Based Optimization (I)
+Distributed control and estimation, WeP08.3,Differentially Private Maximum Consensus (I)
+Distributed control and estimation, WeP08.4,Privacy in Distributive Average Consensus (I)
+Distributed control and estimation, WeP12.1,On Generalized Proportional Allocation Policies for Traffic Signal Control (I)
+Distributed control and estimation, WeP24.4,Event-Triggered Consensus Seeking under Non-Uniform Time-Varying Delays (I)

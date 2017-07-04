@@ -1,0 +1,46 @@
+Control over networks, FrA08.1,Stabilizing Patterned Distributed Systems by State and Measurement Feedback
+Control over networks, FrA08.5,First-Order Average Consensus for Cooperative Control Problems Using Novel Weighting Strategies
+Control over networks, FrA12.2,Optimal Scheduling of Multiple Sensors with Packet Length Constraint
+Control over networks, FrM08.2,Absolute Stabilization of Lur'e Systems under Event-Triggered Feedback (I)
+Control over networks, FrM08.3,Event-Triggered Control for Nonlinear Rational Systems (I)
+Control over networks, FrM08.4,Self-Triggered Control for Uniform Ultimate Boundedness Using Skewed Structured Singular Values (I)
+Control over networks, FrM08.6,Separation in Coupled Event-Triggered Networked Control Systems (I)
+Control over networks, MoM12.3,Output Synchronization of Linear MIMO Heterogeneous Multi-Agent Systems Via Output Communication
+Control over networks, MoP01.5,Robust Output Synchronization of Lower Triangular Multi-Agents Via Sampled-Data Control
+Control over networks, MoP02.6,Aggregate State Control of Large-Scale Systems Via Networked Controllers
+Control over networks, MoP02.14,A Sub-Optimal Method for Routing Redundancy Design Over Lossy Networks
+Control over networks, MoP03.1,Controller Design for Networked Control Systems Affected by Correlated Packet Losses
+Control over networks, MoP03.2,Robust Performance of Feedback Loops with Quantization and Aperiodic Sampling
+Control over networks, MoP03.3,Signal-To-Noise Ratio Requirements for Discrete-Time PID Controllers
+Control over networks, MoP03.4,Structure Preserving H-Infinity Optimal PI Control
+Control over networks, MoP03.6,Event-Based Estimation in a Feedback Loop Anticipating on Imperfect Communication
+Control over networks, MoP03.9,Cyber-Attack Detection with Fault Accommodation Based on Intelligent Generalized Predictive Control (I)
+Control over networks, MoP03.13,Networked Systems under Denial-Of-Service: Co-Located vs. Remote Control Architectures
+Control over networks, ThM12.3,Fast Diffusion of a Mutant in Controlled Evolutionary Dynamics (I)
+Control over networks, ThM12.4,Evolutionary Game Dynamics for Collective Decision Making in Structured and Unstructured Environments (I)
+Control over networks, ThP12.2,Learning Communication Delay Patterns for Remotely Controlled UAV Networks (I)
+Control over networks, TuA03.13,Multi-Sensor Transmission Management for Remote State Estimation under Coordination
+Control over networks, TuA16.4,Event-Triggered Adaptive Control of Minimum-Phase Systems (I)
+Control over networks, TuM05.5,Randomized Constraints Consensus for Distributed Robust Linear Programming (I)
+Control over networks, TuM12.3,Relative Tempo of Consensus Dynamics on Multiplex Network
+Control over networks, TuM12.4,Event-Triggered Dynamic Quantizers for Networked Control Systems
+Control over networks, TuM12.5,mathcal{H}_{infty} Robustness in Mechanical and Power Networks
+Control over networks, TuM33.8,Using a Virtual Plant to Support the Development of Intelligent Gateway for Sensors/Actuators (I)
+Control over networks, TuP05.5,Distributed Nash Equilibrium Seeking Via the Alternating Direction Method of Multipliers
+Control over networks, TuP05.6,Stochastic Stability Analysis of Control Systems with Uncertain Communication
+Control over networks, TuP12.3,Data-Rate and Network Coding Co-Design with Stability and Capacity Constraints
+Control over networks, TuP12.4,SNR Analysis for Linear Quadratic Control Over Gaussian Channels with Feedback
+Control over networks, TuP12.5,Control with Erasure Channels: Performance Characterization Using an Equivalent SNR Constrained Problem
+Control over networks, WeA08.6,Detection and Isolation of Replay Attacks through Sensor Watermarking (I)
+Control over networks, WeA24.4,Design of Periodic Event-Triggered Control for Polynomial Systems: A Delay System Approach (I)
+Control over networks, WeA24.5,Observer-Based Event-Triggered Control for Linear Systems Subject to Cone-Bounded Nonlinearities (I)
+Control over networks, WeM08.1,Protecting Positive and Second-Order Systems against Undetectable Attacks (I)
+Control over networks, WeM08.2,Voltage Control in Distributed Generation under Measurement Falsification Attacks (I)
+Control over networks, WeM08.5,Consequence Analysis of Innovation-Based Integrity Attacks with Side Information on Remote State Estimation (I)
+Control over networks, WeM08.6,Wireless Control under Jamming Attacks with Bounded Average Interference Power (I)
+Control over networks, WeM24.2,A Collision-Free Communication Scheduling for Nonlinear Model Predictive Control (I)
+Control over networks, WeM24.4,Output-Based Event-Triggered Model Predictive Control for Networked Control Systems (I)
+Control over networks, WeP12.3,Network Games: Condensation of the Graph As a Hierarchical Interpretation of the Game (I)
+Control over networks, WeP24.3,Safety Analysis for Controller Handover in Mobile Systems (I)
+Control over networks, WeP24.4,Event-Triggered Consensus Seeking under Non-Uniform Time-Varying Delays (I)
+Control over networks, WeP24.6,Adaptive Control for Linear Uncertain Discrete-Time Systems with Event-Triggered Mechanisms (I)
