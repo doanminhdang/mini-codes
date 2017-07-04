@@ -5,9 +5,9 @@
 #   https://ifac.papercept.net/conferences/conferences/IFAC17/program/IFAC17_ContentListWeb_1.html
 #   till
 #   https://ifac.papercept.net/conferences/conferences/IFAC17/program/IFAC17_ContentListWeb_5.html
-#   Then input data in the raw_list and keyword, then run the script, eg.
-#   python ifac_crawl.py
-#   The list will be extracted as CSV files
+#   Edit this python script to input data in the raw_list and keyword, then run:
+#     python ifac_crawl.py
+#   The list will be extracted as a CSV file.
 # IFAC WC 2017 has the listing of which papers have which keywords:
 #   https://ifac.papercept.net/conferences/conferences/IFAC17/program/IFAC17_KeywordIndexWeb.html
 #
@@ -21,11 +21,6 @@ paper_list = raw_list.split(",")
 keyword = 'Model predictive and optimization-based control'
 output_file = keyword+'.csv'
 
-# Algorithm parameters
-right_offset = 3000
-right_offset_title =300
-csv_splitter = ','
-
 source_list = [\
 'IFAC17_ContentListWeb_1.html',\
 'IFAC17_ContentListWeb_2.html',\
@@ -34,10 +29,15 @@ source_list = [\
 'IFAC17_ContentListWeb_5.html'\
 ]
 
+# Algorithm parameters
+right_offset = 3000
+right_offset_title =300
+csv_splitter = ','
+
 result_lines = []
 
 def get_title(source_file, paper_code):
-    # FExtract the title of the paper with paper_code from source_file
+    # Extract the title of the paper with paper_code from source_file
     with open(source_file) as objFile:
         text = objFile.read()
 
