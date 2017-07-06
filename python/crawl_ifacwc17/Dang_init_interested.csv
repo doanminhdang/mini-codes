@@ -1,0 +1,247 @@
+Keyword,,Code,"Paper title - in IFAC World Congress 2017 – Toulouse; List compiled by Doan Minh Dang, 04.07.2017"
+Control of distributed systems,1, FrA01.8,Voltage and Frequency Control in AC Islanded Microgrids: A Scalable  Line-Independent Design Algorithm
+Distributed control and estimation,, FrA08.1,Stabilizing Patterned Distributed Systems by State and Measurement Feedback
+Distributed control and estimation,, FrA08.2,DINS: A Distributed Scheme for Sensor Fusion Over Fading Channels
+Control of networks,, FrA08.3,State-Controlling Sets for Conjunctive Boolean Networks
+Distributed control and estimation,, FrA08.4,A Framework for Distributed Control Based on Overlapping Estimation for Cooperative Tasks
+Control of networks,, FrA08.5,First-Order Average Consensus for Cooperative Control Problems Using Novel Weighting Strategies
+Distributed control and estimation,2, FrA08.6,On Event-Based Distributed Kalman Filter with Information Matrix Triggers
+Large scale optimization problems,, FrA09.2,On the Connection between Nash Equilibria and Social Optima in Electric Vehicle Charging Control Games (I)
+Large scale optimization problems,, FrA09.3,A Duality-Based Approach for Distributed Optimization with Coupling Constraints (I)
+Convex optimization,, FrA09.3,A Duality-Based Approach for Distributed Optimization with Coupling Constraints (I)
+Large scale optimization problems,, FrA09.4,Interference Induced Games in Networked Control Systems and a Class of Dual Control Solutions (I)
+Large scale optimization problems,, FrA09.5,On Convexity and Monotonicity in Generalized Aggregative Games (I)
+Convex optimization,, FrA09.5,On Convexity and Monotonicity in Generalized Aggregative Games (I)
+Convex optimization,3, FrA10.6,Control of Switched Linear Models: A Superstability Approach
+Large scale optimization problems,4, FrA11.6,An SOR-Like Method for Fast Model Predictive Control (I)
+Distributed control and estimation,, FrA12.1,Collective Optimization Problems with Optimal Decentralized Selfish Strategies
+Distributed control and estimation,, FrA12.3,Distributed Random-Fixed Projected Algorithms for Constrained Optimization Over Digraphs
+Control of networks,, FrA12.5,A Weighted Maximum Matching Algorithm for Influence Maximization and Structural Controllability (I)
+Model predictive and optimization-based control,, FrA19.1,Optimizing Control of Wave Energy Converter with Losses and Fatigue in Power Take Off (I)
+Learning and adaptation in autonomous vehicles,, FrA23.5,Particle Gibbs with Ancestor Sampling for Identication of Tire-Friction Parameters (I)
+Distributed control and estimation,5, FrM07.1,A Distributed Fault Detection and Isolation Algorithm Based on Moving Horizon Estimation (I)
+Distributed control and estimation,, FrM08.5,Distributed Event-Triggered Subgradient Method for Convex Optimization with a Common Constraint Set
+Distributed control and estimation,6, FrM08.6,Separation in Coupled Event-Triggered Networked Control Systems (I)
+Control of networks,, FrM12.1,A Passivity-Based Distributed Reference Governor for Constrained Robotic Networks
+Distributed control and estimation,, FrM12.1,A Passivity-Based Distributed Reference Governor for Constrained Robotic Networks
+Distributed control and estimation,, FrM12.3,Leader-Following Attitude Consensus of Multiple Rigid Body Systems by an Adaptive Distributed Observer Approach
+Convex optimization,, FrM14.1,Robust Anisotropy-Based Control of Linear Discrete-Time Descriptor Systems with Norm-Bounded Uncertainties
+Convex optimization,, FrM14.3,On LMI Approach to Robust State-Feedback H-Infinity Control for Discrete-Time Descriptor Systems with Uncertainties in All Matrices
+E-learning in control engineering,, FrM20.5,Comparing Controllers Based on IPDT Plant Models
+Distributed control and estimation,, FrM24.1,Decentralized Recongurable Multi-Robot Coordination from Local Connectivity and Collision Avoidance Specications (I)
+Control of networks,, FrM24.2,Compositional Abstractions of Networks of Stochastic Hybrid Systems: A Dissipativity Approach (I)
+Model predictive and optimization-based control,7, FrM27.1,Integrating Process Safety Considerations in Lyapunov-Based Model Predictive Control (I)
+Model predictive and optimization-based control,, FrM27.2,Framework for Combined Diagnostics  Prognostics and Optimal Operation of a Subsea Gas Compression System (I)
+Model predictive and optimization-based control,, FrM27.3,Incipient Actuator Fault Handling in Nonlinear Model Predictive Control (I)
+Model predictive and optimization-based control,, FrM27.4,Forecast-Triggered Fault-Tolerant Model Predictive Control of Nonlinear Processes (I)
+Model predictive and optimization-based control,8, FrM27.5,Stochastic Nonlinear Model Predictive Control with Active Model Discrimination: A Closed-Loop Fault Diagnosis Application (I)
+Model predictive and optimization-based control,, MoA01.11,Electrical Power Distribution System Reconfiguration: Case Study of a Real-Life Grid in Croatia
+Model predictive and optimization-based control,, MoA01.6,Advanced Control for Energy Management of Grid-Connected Hybrid Power Systems in the Sugar Cane Industry
+Model predictive and optimization-based control,, MoA02.4,On the Way to Purge Volume Control During Purge Processes of a Fuel Cell System by a Predictive Control Strategy
+Model predictive and optimization-based control,, MoA02.6,Economic MPC Applied to Generation Scheduling in CSP Plants
+Control of distributed systems,9, MoA03.12,Interior Point Decomposition for Multi-Agent Optimization
+Control architectures in automotive control,10, MoA04.2,A Complete Framework for Developing and Testing Automated Driving Controllers
+Distributed control and estimation,, MoA12.1,Controlling a Triangular Flexible Formation of Autonomous Agents
+Distributed control and estimation,, MoA12.2,Average Consensus with Asynchronous Updates and Unreliable Communication
+Distributed control and estimation,, MoA12.6,Enhancing Convergence Toward Consensus in Leader-Follower Networks
+Embedded computer control systems and applications,11, MoA19.4,General Projection Neural Network Based Nonlinear Model Predictive Control for Multi-Robot Formation and Tracking (I)
+Model predictive and optimization-based control,, MoA28.1,Model-Based Fault-Tolerant Control with Robustness to Unanticipated Faults (I)
+Model predictive and optimization-based control,, MoA28.2,Reducing the Energy Footprint of Grinding Circuits: The Process Control Paradigm (I)
+Convex optimization,, MoM02.6,Allowable Delay Sets for the Stability Analysis of Linear Time-Varying Delay Systems Using a Delay-Dependent Reciprocally Convex Lemma (I)
+Cyber-Physical Systems,, MoM03.11,Designing Human-Machine Interaction Concepts for Machine Tool Controls Regarding Ergonomic Requirements (I)
+Convex optimization,, MoM06.4,An Improved Approach to Design Linear Parameter-Varying Controllers Subject to Uncertain Parameter Measurements
+Convex optimization,12, MoM06.5,Discrete-Time Trials for Tuning without a Model
+Convex optimization,, MoM09.3,Constrained and Impulsive Linear Quadratic Control Problems (I)
+Control of networks,, MoM12.1,Topology-Independent Robust Stability of Homogeneous Dynamic Networks
+Distributed control and estimation,13, MoM12.6,Distributed Decoupling of Partially-Unknown Interconnected Linear Multiagent Systems: State and Output Feedback Approaches
+Convex optimization,, MoM14.4,Synchronization of Linear Agents with Input/output Constraints
+Cyber-Physical Systems,14, MoM18.4,Design of Passivity Based Cyber Physical System with Markovian Losses and Delay
+Cyber-Physical Systems,, MoM18.6,Certifiable Software Architecture for Human Robot Collaboration in Industrial Production Environments
+Control of large-scale systems,, MoM19.2,Integrated Control and Process Design in CFB Boiler Design and Control ﾖ Application Possibilities
+Model predictive and optimization-based control,, MoM19.4,Optimal Partitioning of a Boiler-Turbine Unit for Fuzzy Model Predictive Control
+Learning and adaptation in autonomous vehicles,, MoM28.1,Recovery Motion Learning for Arm Mounted Mobile Crawler Robot in Drive System's Failure (I)
+Learning and adaptation in autonomous vehicles,, MoM28.2,Wavelet Neural Network PID Controller for a UAS Transporting a Cable-Suspended Load (I)
+Learning and adaptation in autonomous vehicles,, MoM28.3,Parameter Tuning for Prediction-Based Quadcopter Trajectory Planning Using Learning Automata
+Learning and adaptation in autonomous vehicles,, MoM28.4,Cooperative Reactive Persistent Surveillance Algorithm Using Multiple UAVs Considering Incident Arrivals (I)
+Learning and adaptation in autonomous vehicles,, MoM28.5,Car-Following Behavior Model Learning Using Timed Automata
+Distributed control and estimation,, MoP01.11,Distributed Behavioral Control for Second-Order Nonlinear Multi-Agent Systems
+Distributed control and estimation,, MoP01.13,Random Set Approach to Distributed Multivehicle SLAM
+Distributed control and estimation,15, MoP01.14,Low-Rank Distributed Consensus Controller Design for Linear Multi-Agent Systems under Randomly Switching Directed Topologies and Model Uncertainties
+Distributed control and estimation,, MoP01.4,Mean-Field Analysis of the Convergence Time of Message-Passing Computation of Harmonic Influence in Social Networks
+Distributed control and estimation,, MoP01.7,Robust Average Formation Tracking for Multi-Agent Systems with Multiple Leaders
+Control of networks,, MoP01.8,Cluster Synchronization in Networks of Kuramoto Oscillators
+Distributed control and estimation,16, MoP01.9,Distributed Estimation in Uncalibrated Heterogeneous Networks
+Control of networks,, MoP02.10,Further Improvement of Fixed-Time Protocol for Average Consensus of Multi-Agent Systems
+Distributed control and estimation,, MoP02.11,Information Structure Design in Team Decision Problems
+Distributed control and estimation,17, MoP02.12,Safe Learning for Distributed Systems with Bounded Uncertainties
+Control of networks,, MoP02.13,Exponential Least Squares Solvers for Linear Equations Over Networks
+Distributed control and estimation,, MoP02.13,Exponential Least Squares Solvers for Linear Equations Over Networks
+Control of networks,, MoP02.14,A Sub-Optimal Method for Routing Redundancy Design Over Lossy Networks
+Distributed control and estimation,, MoP02.3,Consensus Control of High-Order Multi-Agent Systems with Antagonistic Interactions and Measurement Noises
+Distributed control and estimation,, MoP02.4,Data Aggregation Based Estimation for Sensor Network with Communication Delay
+Distributed control and estimation,, MoP02.5,Distributed Consensus-Based Kalman Filtering Considering Subspace Decomposition
+Distributed control and estimation,18, MoP02.6,Aggregate State Control of Large-Scale Systems Via Networked Controllers
+Distributed control and estimation,19, MoP02.8,Vehicular Platoons in Cyclic Interconnections with Constant Inter-Vehicle Spacing
+Control of networks,, MoP02.9,Controllable Graphs with Small Sums of Diameters and Maximum Vertex Degrees
+Distributed control and estimation,, MoP03.11,Multi-Role Coverage Control for Multi-Color Mass Games: A Voronoi-Based Cut-In Approach
+Distributed control and estimation,, MoP03.12,Bayesian Online Learning for Information-Based Multi-Agent Exploration with Unknown Radio Signal Distribution
+Control of networks,, MoP03.4,Structure Preserving H-Infinity Optimal PI Control
+Distributed control and estimation,, MoP03.4,Structure Preserving H-Infinity Optimal PI Control
+Distributed control and estimation,, MoP03.7,Application of Distributed Model Predictive Approaches to Temperature and CO2 Concentration Control in Buildings
+Large scale optimization problems,, MoP06.1,Robust Principal Component Analysis: An IRLS Approach
+Large scale optimization problems,20, MoP06.5,On Fully Distributed Dual First Order Methods for Convex Network Optimization
+Convex optimization,, MoP06.5,On Fully Distributed Dual First Order Methods for Convex Network Optimization
+Model predictive control of water resources systems,, MoP17.2,Model Predictive Control of Salinity in a Polder Ditch under High Saline Groundwater Exfiltration Conditions: A Test Case
+Model predictive and optimization-based control,, MoP22.2,Cost-Optimal Model Predictive Scheduling of Home Appliances (I)
+Control architectures in automotive control,, MoP23.1,Model Identification and Control for a Quarter Car Test Rig of Series Active Variable Geometry Suspension
+Model predictive and optimization-based control,, MoP27.1,Fault-Tolerant Economic Model Predictive Control Using Empirical Models (I)
+Model predictive and optimization-based control,, MoP27.3,Offset-Free Robust MPC of Systems with Mixed Stochastic and Deterministic Uncertainty (I)
+Model predictive and optimization-based control,, MoP27.4,Polynomial Chaos-Based H2-Optimal Static Output Feedback Control of Systems with Probabilistic Parametric Uncertainties (I)
+Model predictive and optimization-based control,, MoP27.5,A Thermodynamic Library for Simulation and Optimization of Dynamic Processes
+Model predictive and optimization-based control,, MoP27.6,Arbitrary Polynomial Chaos for Uncertainty Propagation of Correlated Random Variables in Dynamic Systems (I)
+Large scale optimization problems,, ThA04.11,Maximum Entropy Estimation Via Gauss-LP Quadratures
+Convex optimization,, ThA04.11,Maximum Entropy Estimation Via Gauss-LP Quadratures
+Convex optimization,, ThA04.6,Data-Driven Controller Design for Atomic-Force Microscopy
+Convex optimization,, ThA04.8,Iterative Convex Overbounding Algorithms for BMI Optimization Problems
+Control of networks,, ThA12.1,On the Steady-State Behavior of Low-Inertia Power Systems (I)
+Distributed control and estimation,21, ThA12.2,Large-Scale Distributed Kalman Filtering Via an Optimization Approach (I)
+Distributed control and estimation,22, ThA12.3,Sparse Linear-Quadratic-Gaussian Control in Networked Systems (I)
+Model predictive and optimization-based control,, ThA14.3,Optimization-Based Online Decision Support Tool for Electric Arc Furnace Operation
+Model predictive and optimization-based control,, ThA14.5,Distributed Model Predictive Control of Centrifugal Compressor Systems
+Control architectures in automotive control,, ThA21.4,Improving Fuel Economy and Acceleration by Electric Turbocharger Control for Heavy Duty Long Haulage
+Model predictive and optimization-based control,, ThA22.2,An Intelligent Dual Optimization Approach for Improved Load Following of Supercritical Power Unit Based on Condensate Throttling (I)
+Embedded computer control systems and applications,, ThA26.6,Integration of Symbolic Execution into a Formal Abstract State Machines Based Language
+Model predictive and optimization-based control,, ThA27.1,From Consumption to Prosumption - Operational Cost Optimization for Refrigeration System with Heat Waste Recovery
+Control of distributed systems,23, ThA27.2,A Distributed Optimization Algorithm for Stochastic Optimal Control
+Control of large-scale systems,, ThA27.4,An Adaptive Robust Optimization Scheme for Water-Flooding Optimization in Oil Reservoirs Using Residual Analysis
+Model predictive and optimization-based control,, ThA27.5,Distributed Model Predictive Energy Optimization for 'Plug-And-Play' DGs in Hybrid Micro-Grid
+Convex optimization,, ThM01.2,Quasi-Non-Symmetric Input and Output Constraints in LMI-Based Robust MPC
+Large scale optimization problems,24, ThM03.13,Distributed Algorithm for Optimal Vehicle Coordination at Traffic Intersections
+Model predictive and optimization-based control,25, ThM10.1,Nested Distributed Model Predictive Control
+Model predictive and optimization-based control,26, ThM10.2,Distributed MPC: Guaranteeing Global Stability from Locally Designed Tubes
+Large scale optimization problems,27, ThM11.2,Proximal Limited-Memory Quasi-Newton Methods for Scenario-Based Stochastic Optimal Control (I)
+Convex optimization,, ThM11.2,Proximal Limited-Memory Quasi-Newton Methods for Scenario-Based Stochastic Optimal Control (I)
+Control of networks,, ThM12.1,Opinion Evolution in Time-Varying Social Influence Networks with Prejudiced Agents (I)
+Control of networks,, ThM12.2,On the Analysis of the DeGroot-Friedkin Model with Dynamic Relative Interaction Matrices (I)
+Distributed control and estimation,, ThM12.6,Static Teams with Common Information
+Large scale optimization problems,, ThM15.3,A Hierarchical MPC Scheme for Interconnected Systems (I)
+Large scale optimization problems,, ThM15.4,Inter-Layer Interactions in Hierarchical MPC for Building Energy Management Systems (I)
+Large scale optimization problems,, ThM22.6,Distributed Negotiation with a Class of Quadratic Cost Functions
+Distributed control and estimation,, ThM22.6,Distributed Negotiation with a Class of Quadratic Cost Functions
+Control of networks,, ThM24.1,Supervisory Control for High-Voltage Direct Current Transmission Systems (I)
+Control of distributed systems,, ThM27.1,Plug-And-Play Control and Consensus Algorithms for Current Sharing in DC Microgrids
+Control of large-scale systems,, ThM27.1,Plug-And-Play Control and Consensus Algorithms for Current Sharing in DC Microgrids
+Control of distributed systems,, ThM27.2,Adaptive Pricing for Optimal Resource Allocation in Industrial Production Sites
+Control of large-scale systems,, ThM27.2,Adaptive Pricing for Optimal Resource Allocation in Industrial Production Sites
+Model predictive and optimization-based control,28, ThM27.3,Distributed Model Predictive Control of Process Networks: Impact of Control Architecture
+Control of distributed systems,, ThM27.4,A Framework for the Simulation and Validation of Distributed Control Architectures for Technical Systems of Systems
+Control of large-scale systems,, ThM27.4,A Framework for the Simulation and Validation of Distributed Control Architectures for Technical Systems of Systems
+Model predictive and optimization-based control,29, ThM27.5,Distributed Differentially Private Model Predictive Control for Energy Storage
+Model predictive and optimization-based control,, ThM27.6,Constrained Bundle Methods with Inexact Minimization Applied to the Energy Regulation Provision Problem
+Large scale optimization problems,, ThP10.6,Energy Management for Building Climate Comfort in Uncertain Smart Thermal Grids with Aquifer Thermal Energy Storage
+Convex optimization,30, ThP11.2,Banded Null Basis and ADMM for Embedded MPC (I)
+Large scale optimization problems,31, ThP11.4,A Novel Approach for Solving Convex Problems with Cardinality Constraints (I)
+Control of networks,, ThP12.1,Distributed Control of Wireless Power Transfer Subject to Safety Constraints (I)
+Distributed control and estimation,, ThP12.3,Exponential Stability of LMS-Based Distributed Adaptive Filters (I)
+Distributed control and estimation,32, ThP12.4,A First-Order Prediction-Correction Algorithm for Time-Varying (Constrained) Optimization (I)
+Distributed control and estimation,, ThP12.5,Distributed Kalman Filtering for Time-Space Gaussian Processes (I)
+Distributed control and estimation,, ThP12.6,A Distributed Voltage Stability Margin for Power Distribution Networks (I)
+Model predictive and optimization-based control,, ThP13.5,Model Predictive Path-Following Control for Airborne Wind Energy Systems (I)
+E-learning in control engineering,, ThP19.1,Team Public Testing in Classroom Studies on Automatic Control Theory
+Model predictive and optimization-based control,, ThP27.2,Gas Phase Train in Upstream Oil & Gas Fields: PART-III Control System Design
+Control of distributed systems,, ThP27.2,Gas Phase Train in Upstream Oil & Gas Fields: PART-III Control System Design
+Model predictive and optimization-based control,, ThP27.4,Control of the State-Of-Charge of a Li-Ion Battery Cell Via Reference Governor
+Model predictive and optimization-based control,, ThP27.6,Model-Based Optimal Experiment Design for Nonlinear Parameter Estimation Using Exact Confidence Regions
+Control architectures in automotive control,, TuA02.10,A Robust Stabilization Method for a Saturated LPV System : Application to the Lateral Dynamics of Vehicles
+Control architectures in automotive control,, TuA02.3,Nonlinear Stability Control of Autonomous Vehicles: A MIMO D2-IBC Solution
+Control architectures in automotive control,33, TuA02.6,Decentralized Controllers for the Steering and Velocity in Vehicles
+Control architectures in automotive control,, TuA02.7,Autonomous Drift Parking Using a Switched Control Strategy with Onboard Sensors
+Distributed control and estimation,, TuA08.5,Distributed Zonotopic Set-Membership State Estimation Based on Optimization Methods with Partial Projection (I)
+Distributed control and estimation,, TuA08.6,On Design of Interval Observers for Parabolic PDEs (I)
+Convex optimization,, TuA10.4,Robust Simulation of Rational Discrete-Time Systems Via Sum of Squares Relaxations
+Model predictive and optimization-based control,, TuA14.2,Domestic Heat Generation and Distribution with Time-Variant Receding Horizon Control (I)
+Model predictive and optimization-based control,, TuA14.6,Model Predictive Control for Hydronic Heating Systems in Residential Buildings (I)
+Cyber-Physical Systems,, TuA18.1,Configuring the Deployment into Software-Based Controllers through Hierarchical Simulations (I)
+Cyber-Physical Systems,, TuA18.3,Evaluation of Manipulators under CPPS Frame (I)
+Model predictive and optimization-based control,, TuA22.6,Adjoint-Based Model Predictive Control of Wind Farms: Beyond the Quasi Steady-State Power Maximization (I)
+Model predictive and optimization-based control,, TuA27.1,Robust Multi-Parametric Control of Continuous-Time Linear Dynamic Systems (I)
+Model predictive and optimization-based control,, TuA27.2,Real-Time Optimization Via Modifier Adaptation Using Partial Plant Models (I)
+Control of large-scale systems,, TuA27.3,Global Self-Optimizing Control for Uncertain Constrained Process Systems (I)
+Model predictive and optimization-based control,, TuA27.4,Run-To-Run Optimization of Batch Processes Using Set-Based Constraints (I)
+Connected Vehicles,, TuM01.2,Towards a Generic Synthesis Framework for ADAS Control Laws (I)
+Control architectures in automotive control,, TuM02.11,Simplified Energy-Efficient Adaptive Cruise Control Based on Model Predictive Control
+Control architectures in automotive control,, TuM02.9,Handling State Constraints in Fast-Computing Optimal Control for Hybrid Powertrains
+Large scale optimization problems,, TuM04.6,A Jacobi Decomposition Algorithm for Distributed Convex Optimization in Distributed Model Predictive Control
+Convex optimization,34, TuM04.6,A Jacobi Decomposition Algorithm for Distributed Convex Optimization in Distributed Model Predictive Control
+Convex optimization,35, TuM04.9,Near Time-Optimal Path Tracking Method for Waiter Motion Problem
+Distributed control and estimation,, TuM05.3,An Optimal Execution Problem in Finance with Acquisition and Liquidation Objectives: An MFG Formulation
+Distributed control and estimation,, TuM12.1,A Distributed Algorithm with Consistency for PageRank-Like Linear Algebraic Systems
+Control of networks,, TuM12.2,Analysis of Clusters in Network Graphs for Personalized Web Search (I)
+Control of networks,, TuM12.3,Relative Tempo of Consensus Dynamics on Multiplex Network
+Control of networks,, TuM12.5,mathcal{H}_{infty} Robustness in Mechanical and Power Networks
+Distributed control and estimation,, TuM12.5,mathcal{H}_{infty} Robustness in Mechanical and Power Networks
+Control of networks,36, TuM12.6,Robust Periodic Economic Predictive Control Based on Interval Arithmetic for Water Distribution Networks (I)
+Model predictive control of water resources systems,, TuM17.1,Modeling Water Hammers Via PDEs and Switched DAEs with Numerical Justification (I)
+Model predictive control of water resources systems,, TuM17.5,Outer Approximation Methods for the Solution of Co-Design Optimisation Problems in Water Distribution Networks (I)
+Model predictive control of water resources systems,, TuM18.1,Modeling and Identification of Irrigation Channel Dynamics Affected by Wind
+Control of distributed systems,, TuM22.5,Coordinated Fuzzy Logic Control Strategy for Hybrid PV Array with Fuel-Cell and Ultra-Capacitor in a Microgrid (I)
+Distributed control and estimation,37, TuM24.3,Decentralized State Feedback Design for Multilinear Time-Invariant Systems (I)
+Model predictive and optimization-based control,, TuM27.1,Improved Directional Derivatives for Modifier-Adaptation Schemes (I)
+Model predictive and optimization-based control,, TuM27.4,Use of Transient Measurements for Static Real-Time Optimization (I)
+Model predictive and optimization-based control,, TuM27.5,Distributed Modifier Adaptation Using a Coordinator and Measured Interconnection Variables (I)
+Learning and adaptation in autonomous vehicles,, TuM28.1,Path Tracking for a Skid-Steer Vehicle Using Model Predictive Control with On-Line Sparse Gaussian Process
+Embedded computer control systems and applications,, TuP01.10,Dynamic QoS Management for Flexible Multimedia Applications
+Embedded computer control systems and applications,38, TuP01.2,Formal Verification for Embedded Implementation of Convex Optimization Algorithms
+Embedded computer control systems and applications,39, TuP01.3,Timing Analysis Tools in a Model-Driven Development Environment
+Embedded computer control systems and applications,40, TuP01.4,Scheduling and Control Co-Design for Control Systems under Computational Constraints
+Embedded computer control systems and applications,, TuP01.5,Adapting the Concept of Technical Debt to Software of Automated Production Systems Focusing on Fault Handling  Modes of Operation  and Safety Aspects
+Embedded computer control systems and applications,, TuP01.6,LQG-Based Control and Scheduling Co-Design
+Embedded computer control systems and applications,, TuP01.8,Secure Authentication in CPS-Based Production Environments
+Control architectures in automotive control,, TuP02.10,Methodology for Analysing the NOx-NH3 Trade-Off for the Heavy-Duty Automotive SCR Catalyst
+Convex optimization,, TuP04.6,Suboptimal Anisotropy-Based Control for Linear Discrete Time Varying Systems with Noncentered Disturbances
+Distributed control and estimation,41, TuP05.5,Distributed Nash Equilibrium Seeking Via the Alternating Direction Method of Multipliers
+Distributed control and estimation,, TuP12.3,Data-Rate and Network Coding Co-Design with Stability and Capacity Constraints
+Model predictive control of water resources systems,42, TuP17.1,Distributed Model Predictive Control of Irrigation Systems Using Cooperative Controllers (I)
+Model predictive control of water resources systems,, TuP17.2,Mobile Model Predictive Control for the �vora Irrigation Test Canal (I)
+Model predictive control of water resources systems,43, TuP17.5,Periodic Nonlinear Economic Model Predictive Control with Changing Horizon for Water Distribution Networks (I)
+Model predictive control of water resources systems,, TuP17.6,Robust Model Predictive Control with Signal Temporal Logic Constraints for Barcelona Wastewater System (I)
+Embedded computer control systems and applications,, TuP27.3,Implementation of Brain Emotional Learning-Based Intelligent Controller for Flocking of Multi-Agent Systems (I)
+Connected Vehicles,, WeA01.3,Hybrid Satellite Position Estimator Using Self-Induced Dither for SATCOM on the Move (I)
+Distributed control and estimation,, WeA08.5,Strong Structural Input and State Observability of LTV Network Systems with Multiple Unknown Inputs (I)
+Large scale optimization problems,, WeA09.4,Online Combinatorial Optimization for Interconnected Refrigeration Systems: Linear Approximation and Submodularity
+Large scale optimization problems,44, WeM02.7,Reverse Ishikawa-Nesterov Learning Scheme for Fractional Mean-Field Games
+Convex optimization,, WeM04.5,On Existence of Separable Contraction Metrics for Monotone Nonlinear Systems
+Large scale optimization problems,, WeM04.8,Optimized Thermal-Aware Job Scheduling and Control of Data Centers
+Distributed control and estimation,, WeM08.2,Voltage Control in Distributed Generation under Measurement Falsification Attacks (I)
+Large scale optimization problems,, WeM09.1,Fast ADMM for Homogeneous Self-Dual Embedding of Sparse SDPs
+Convex optimization,, WeM09.1,Fast ADMM for Homogeneous Self-Dual Embedding of Sparse SDPs
+Large scale optimization problems,, WeM09.2,Distributed Resource Allocation among a Subset of Nodes of a Graph
+Large scale optimization problems,, WeM09.3,Projected Alternating Direction Method of Multipliers for Hybrid Systems
+Large scale optimization problems,, WeM09.4,Computing Monotone Policies for Markov Decision Processes: A Nearly-Isotonic Penalty Approach
+Large scale optimization problems,, WeM09.5,A Consensus Approach to Dynamic Programming
+Large scale optimization problems,45, WeM09.6,Formation Control of Mobile Robots Based on Interconnected Positive Systems
+Convex optimization,, WeM15.6,Quadratic and Poly-Quadratic Discrete-Time Stabilizability of Linear Parameter-Varying Systems (I)
+Large scale optimization problems,, WeM21.5,A Two-Layer Decentralized Approach to the Optimal Energy Management of a Building District with a Shared Thermal Storage
+Distributed control and estimation,46, WeM24.1,Distributed Model Predictive Control with Event-Based Optimization (I)
+Model predictive and optimization-based control,, WeM27.1,A Valve Stiction Tolerant Formulation of MPC for Industrial Processes
+Model predictive and optimization-based control,, WeM27.2,Energy Savings in Data Centers: A Framework for Modelling and Control of Servers� Cooling
+Model predictive and optimization-based control,, WeM27.3,A Hierarchical MPC for Multi-Objective Mixed-Integer Optimisation Applied to Redundant Refrigerat
+Model predictive and optimization-based control,47, WeM27.4,Online Constraint Adaptation in Economic Model Predictive Control
+Model predictive and optimization-based control,, WeM27.6,An Adaptive Dual MPC Scheme Based on Output Error Models Parameterized Using Generalized Orthonormal Basis Filters
+E-learning in control engineering,48, WeM33.2,Demonstration of PISim - Software for Teaching Chemical Process Control (I)
+E-learning in control engineering,, WeM33.5,Low-Cost Carry-Home Mobile Platforms for Project-Based Evaluation of Control Theory (I)
+E-learning in control engineering,, WeM33.7,A Khepera IV Library for Robotic Control Education Using V-REP (I)
+Distributed control and estimation,, WeP08.3,Differentially Private Maximum Consensus (I)
+Distributed control and estimation,, WeP08.4,Privacy in Distributive Average Consensus (I)
+Control of networks,, WeP12.1,On Generalized Proportional Allocation Policies for Traffic Signal Control (I)
+Distributed control and estimation,, WeP12.1,On Generalized Proportional Allocation Policies for Traffic Signal Control (I)
+Control of networks,, WeP12.3,Network Games: Condensation of the Graph As a Hierarchical Interpretation of the Game (I)
+Control of networks,49, WeP12.5,Group Testing Game (I)
+Model predictive and optimization-based control,, WeP19.2,Fault Tolerant Control of Wind Turbine Using Robust Model Predictive Min-Max Approach
+Large scale optimization problems,, WeP21.4,Optimal Decentralized Temperature Control of Large Scale Multi-Zone Buildings Using Minimal-Order Controllers
+Control of large-scale systems,, WeP22.2,A Power Consensus Algorithm for DC Microgrids (I)
+Model predictive and optimization-based control,, WeP22.5,Economic Model Predictive Control for Optimal Operation of Home Microgrid with Photovoltaic-Combined Heat and Power Storage Systems (I)
+Control architectures in automotive control,, WeP23.5,Automatic Evaluation and Optimization of Generic Hybrid Vehicle Topologies Using Dynamic Programming (I)
+Distributed control and estimation,50, WeP24.4,Event-Triggered Consensus Seeking under Non-Uniform Time-Varying Delays (I)
+Model predictive and optimization-based control,, WeP27.1,Finite State Estimation and Control of a Multi-Input CSTR Benchmark
+Model predictive and optimization-based control,, WeP28.4,Model Predictive Control of an Exothermic Pressure Leach Circuit
