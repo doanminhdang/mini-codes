@@ -5,6 +5,8 @@ Created on Tue Apr 24 13:15:35 2018
 @author: dang
 
 Written for Python 2.7
+Test command:
+python readocr.py
 """
 
 from __future__ import unicode_literals
@@ -24,32 +26,62 @@ def read_format(word_style_names, default_bold, default_italic):
             word_format_bolds[k] = True
         if 'Not Italic' in word_style_names[k]:
             word_format_italics[k] = False
-        elif 'Bold' in word_style_names[k]:
+        elif 'Italic' in word_style_names[k]:
             word_format_italics[k] = True
     return word_format_bolds, word_format_italics
 
-def check_capital(phrase):
+def split_capital(phrase):
+    """Split capital and small words.
+    Capital words are only allowed at the first half of the phrase.
+    If a capital word is after a small word, it is NOT marked capital.
+    """
     format_capital = []
     words = phrase.split()
+    flag_prev_word_capital = True
     for k in range(len(words)):
-        if words[k].isupper():                
+        if words[k].isupper() and flag_prev_word_capital:
             format_capital.append(True)
         else:
             format_capital.append(False)
+            flag_prev_word_capital = False
     return words, format_capital
 
-def merge_similar_series(words, case_capital):
+def merge_similar_series(words, case_capital, format_bold, format_italic):
     newwords = list(words)
     newcase_capital = list(case_capital)
+    newformat_bold = list(format_bold)
+    newformat_italic = list(format_italic)
     for k in range(len(words)-1,0,-1):
-        if newcase_capital[k] == newcase_capital[k-1]:
+        if newcase_capital[k] == newcase_capital[k-1] \
+        and newformat_bold[k] == newformat_bold[k-1] \
+        and newformat_italic[k] == newformat_italic[k-1]: 
             newwords[k-1] = ' '.join([newwords[k-1], newwords[k]])
             del newwords[k]
             del newcase_capital[k]
-    return newwords, newcase_capital
-   
+            del newformat_bold[k]
+            del newformat_italic[k]
+    return newwords, newcase_capital, newformat_bold, newformat_italic
+
+def merge_with_comment_phrase(words, case_capital, format_bold, format_italic):
+    """If the word is in (), it should be a comment for the previous one,
+    hence be added to the previous one.
+    """
+    newwords = list(words)
+    newcase_capital = list(case_capital)
+    newformat_bold = list(format_bold)
+    newformat_italic = list(format_italic)
+    for k in range(len(words)-1,0,-1):
+        if newwords[k].strip(',')[0]=='(' and newwords[k].strip(',')[-1]==')':
+            newwords[k-1] = ' '.join([newwords[k-1], newwords[k]])
+            del newwords[k]
+            del newcase_capital[k]
+            del newformat_bold[k]
+            del newformat_italic[k]
+    return newwords, newcase_capital, newformat_bold, newformat_italic
+
 def re_parse(word_texts, word_format_bolds, word_format_italics):
     """Fix the leftover mistake in the data parsed, some example items:
+    THAN gate road
     TOÁN, S_CHÊ figure 
     hình 
     (bản vẽ) - is a separate item, in fact it is a comment for previous item
@@ -60,25 +92,22 @@ def re_parse(word_texts, word_format_bolds, word_format_italics):
     newwordcase_capitals = []
     newword_format_bolds = []
     newword_format_italics = []
-    newlinerole_comment = []
     for k in range(len(word_texts)):
         phrase = word_texts[k]
-        words, wordcase_capital = check_capital(phrase)
-        words, wordcase_capital = merge_similar_series(words, wordcase_capital)
+        words, wordcase_capital = split_capital(phrase)
         newword_texts.extend(words)
         newwordcase_capitals.extend(wordcase_capital)
         for n in range(len(words)):
             newword_format_bolds.append(word_format_bolds[k])
             newword_format_italics.append(word_format_italics[k])
-            # if the word is in (), it should be a comment for the previous one
-            if words[n].strip(',')[0]=='(' and words[n].strip(',')[-1]==')':
-                newlinerole_comment.append(True)
-            else:
-                newlinerole_comment.append(False)
-    return newword_texts, newwordcase_capitals, newword_format_bolds, newword_format_italics, newlinerole_comment
+    newword_texts, newwordcase_capitals, newword_format_bolds, newword_format_italics = \
+    merge_with_comment_phrase(newword_texts, newwordcase_capitals, newword_format_bolds, newword_format_italics)
+    newword_texts, newwordcase_capitals, newword_format_bolds, newword_format_italics = \
+    merge_similar_series(newword_texts, newwordcase_capitals, newword_format_bolds, newword_format_italics)
+    return newword_texts, newwordcase_capitals, newword_format_bolds, newword_format_italics
 
 
-def analyze_line(word_texts, wordcase_capitals, word_format_bolds, word_format_italics, linerole_comment):
+def analyze_line(word_texts, wordcase_capitals, word_format_bolds, word_format_italics):
     """Algorithm to analyze a line:
     A line needs at least 4 words. If not,  neglect the line.
     First word is considered the main word, in German.
@@ -135,38 +164,44 @@ def analyze_line(word_texts, wordcase_capitals, word_format_bolds, word_format_i
     out_message = 'Line has been analyzed successfully to ' + str(item+1) + ' item(s).'
     return de_word, type_word, field_word, en_word, vi_word, out_message
 
-# Tests:
-line = doc.paragraphs[2]
-line = doc.paragraphs[16]
-line = doc.paragraphs[19]
-line = doc.paragraphs[25]
-
-#for phrase in line.runs:
-#   print(phrase.text)
-#   print(line.style.name)
-#   print(line.style.font.bold)
-#   print(line.style.font.italic)
-#   print(phrase.style.name)
-#   print(phrase.style.font.bold)
-#   print(phrase.style.font.italic)
-
-paragraph_style_bold = line.style.font.bold
-paragraph_style_italic = line.style.font.italic
-word_texts = [part.text.strip() for part in line.runs if part.text.strip() != '']
-word_style_names = [part.style.name for part in line.runs if part.text.strip() != '']
-word_format_bolds, word_format_italics = read_format(word_style_names, paragraph_style_bold, paragraph_style_italic)
-#word_format_bolds = [part.style.font.bold for part in line.runs if part.text.strip() != '']
-#word_format_italics = [part.style.font.italic for part in line.runs if part.text.strip() != '']
-
-for k in range(len(word_style_names)):
-    print(word_texts[k])
-    print(word_style_names[k])
-    print(word_format_bolds[k])
-    print(word_format_italics[k])
-
-newword_texts, newwordcase_capitals, newword_format_bolds, newword_format_italics, newlinerole_comment = re_parse(word_texts, word_format_bolds, word_format_italics)
-
-de_word, type_word, field_word, en_word, vi_word, out_message = analyze_line(newword_texts, newwordcase_capitals, newword_format_bolds, newword_format_italics, newlinerole_comment)
+## Tests:
+#line = doc.paragraphs[2]
+#line = doc.paragraphs[16]
+#line = doc.paragraphs[19]
+#line = doc.paragraphs[25]
+#
+##for phrase in line.runs:
+##   print(phrase.text)
+##   print(line.style.name)
+##   print(line.style.font.bold)
+##   print(line.style.font.italic)
+##   print(phrase.style.name)
+##   print(phrase.style.font.bold)
+##   print(phrase.style.font.italic)
+#
+#paragraph_style_bold = line.style.font.bold
+#paragraph_style_italic = line.style.font.italic
+#word_texts = [part.text.strip() for part in line.runs if part.text.strip() != '']
+#word_style_names = [part.style.name for part in line.runs if part.text.strip() != '']
+#word_format_bolds, word_format_italics = read_format(word_style_names, paragraph_style_bold, paragraph_style_italic)
+##word_format_bolds = [part.style.font.bold for part in line.runs if part.text.strip() != '']
+##word_format_italics = [part.style.font.italic for part in line.runs if part.text.strip() != '']
+#
+#for k in range(len(word_style_names)):
+#    print(word_texts[k])
+#    print(word_style_names[k])
+#    print(word_format_bolds[k])
+#    print(word_format_italics[k])
+#
+#newword_texts, newwordcase_capitals, newword_format_bolds, newword_format_italics = re_parse(word_texts, word_format_bolds, word_format_italics)
+#
+#for k in range(len(newword_texts)):
+#    print(newword_texts[k])
+#    print(newwordcase_capitals[k])
+#    print(newword_format_bolds[k])
+#    print(newword_format_italics[k])
+#
+#de_word, type_word, field_word, en_word, vi_word, out_message = analyze_line(newword_texts, newwordcase_capitals, newword_format_bolds, newword_format_italics)
 
 # Main operation:
 
@@ -184,9 +219,9 @@ for line in doc.paragraphs:
     word_style_names = [part.style.name for part in line.runs if part.text.strip() != '']
     word_format_bolds, word_format_italics = read_format(word_style_names, paragraph_style_bold, paragraph_style_italic)
     print(word_texts)
-    newword_texts, newwordcase_capitals, newword_format_bolds, newword_format_italics, newlinerole_comment = re_parse(word_texts, word_format_bolds, word_format_italics)
+    newword_texts, newwordcase_capitals, newword_format_bolds, newword_format_italics = re_parse(word_texts, word_format_bolds, word_format_italics)
     print(newword_texts)    
-    de_word, type_word, field_word, en_word, vi_word, out_message = analyze_line(newword_texts, newwordcase_capitals, newword_format_bolds, newword_format_italics, newlinerole_comment)
+    de_word, type_word, field_word, en_word, vi_word, out_message = analyze_line(newword_texts, newwordcase_capitals, newword_format_bolds, newword_format_italics)
     print(de_word)
     print(en_word)
     print(vi_word)
@@ -203,3 +238,28 @@ for line in doc.paragraphs:
     # then the real style = False. Probably the XOR operator of the two booleans works. 
     
 # Later: output directly the result from each line to the CSV file
+
+# encoding=utf8 by default
+# See: https://stackoverflow.com/questions/21129020/how-to-fix-unicodedecodeerror-ascii-codec-cant-decode-byte
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
+import csv
+
+def WriteTableCsv(exportFile, table):
+    with open(exportFile, 'wt') as csvfile:
+        textWriter = csv.writer(csvfile, delimiter=str('\t'))
+        for i in range(len(table)):
+            textWriter.writerow(table[i])
+
+table = []
+for k in range(len(de_words)):
+    table.append([de_words[k], type_words[k], field_words[k], en_words[k], vi_words[k]])
+
+exportFile = 'result.csv'
+logFile = 'log.txt'
+
+WriteTableCsv(exportFile, table)
+with open(logFile, 'wt') as txtfile:
+    for item in out_messages:
+        txtfile.write("%s\n" % item)

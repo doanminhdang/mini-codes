@@ -1,0 +1,44 @@
+Line has less than 4 elements, skipped.
+Line has less than 4 elements, skipped.
+Line has less than 4 elements, skipped.
+Line has less than 4 elements, skipped.
+Line has less than 4 elements, skipped.
+Line has less than 4 elements, skipped.
+Line has less than 4 elements, skipped.
+Line has been analyzed successfully to 3 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 4 item(s).
+Line has less than 4 elements, skipped.
+Line has less than 4 elements, skipped.
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has less than 4 elements, skipped.
+Line has been analyzed successfully to 3 item(s).
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped.
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 3 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped.
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has less than 4 elements, skipped.
+Line has less than 4 elements, skipped.
+Line has been analyzed successfully to 1 item(s).
