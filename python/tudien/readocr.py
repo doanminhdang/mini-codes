@@ -79,7 +79,7 @@ def merge_with_comment_phrase(words, case_capital, format_bold, format_italic):
     newformat_bold = list(format_bold)
     newformat_italic = list(format_italic)
     for k in range(len(words)-1,0,-1):
-        if newwords[k].strip(',')[0]=='(' and newwords[k].strip(',')[-1]==')':
+        if len(newwords[k].strip(','))>0 and newwords[k].strip(',')[0]=='(' and newwords[k].strip(',')[-1]==')':
             newwords[k-1] = ' '.join([newwords[k-1], newwords[k]])
             del newwords[k]
             del newcase_capital[k]
