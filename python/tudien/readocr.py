@@ -11,23 +11,31 @@ python readocr.py
 
 from __future__ import unicode_literals
 import docx
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
+import csv
 
-doc = docx.Document('TudienKHCN1.ocr.docx')
+inputFile = str(sys.argv[1])
+exportFile = str(sys.argv[2])
+#exportFile = 'result.csv'
+logFile = 'log.txt'
+
+doc = docx.Document(inputFile)
 #for p in doc.paragraphs:
 #    print(len(p.runs))
 
-def read_format(word_style_names, default_bold, default_italic):
-    word_format_bolds = [default_bold for item in word_style_names]
-    word_format_italics = [default_italic for item in word_style_names]
-    for k in range(len(word_style_names)):
-        if 'Not Bold' in word_style_names[k]:
-            word_format_bolds[k] = False
-        elif 'Bold' in word_style_names[k]:
-            word_format_bolds[k] = True
-        if 'Not Italic' in word_style_names[k]:
-            word_format_italics[k] = False
-        elif 'Italic' in word_style_names[k]:
-            word_format_italics[k] = True
+def read_format(format_toggle_bolds, format_toggle_italics, default_bold, default_italic):
+    word_format_bolds = [default_bold for item in format_toggle_bolds]
+    word_format_italics = [default_italic for item in format_toggle_italics]
+    for k in range(len(format_toggle_bolds)):
+        # Using style name doesn't work with different languages, example:
+        # English Word file: Bold, Not Italic, German: Fett,Nicht kursiv
+        if format_toggle_bolds[k] == True:
+            word_format_bolds[k] = not word_format_bolds[k]
+    for k in range(len(format_toggle_italics)):
+        if format_toggle_italics[k] == True:
+            word_format_italics[k] = not word_format_italics[k]
     return word_format_bolds, word_format_italics
 
 def split_capital(phrase):
@@ -124,9 +132,12 @@ def analyze_line(word_texts, wordcase_capitals, word_format_bolds, word_format_i
     field_word = []
     if len(word_texts) < 4:
         out_message = 'Line has less than 4 elements, skipped.'
+        if len(word_texts) >= 1:
+            out_message += ' This line starts with: ' + word_texts[0]
         return de_word, type_word, field_word, en_word, vi_word, out_message
     if wordcase_capitals[2] != True:
         out_message = '3rd word is not CAPITAL, syntax not compatible, skipped.'
+        out_message += ' This line starts with: ' + word_texts[0]
         return de_word, type_word, field_word, en_word, vi_word, out_message
     item = 0
     de_word.append(word_texts[0])
@@ -162,14 +173,18 @@ def analyze_line(word_texts, wordcase_capitals, word_format_bolds, word_format_i
     type_word = [word.strip().strip(',') for word in type_word]
     field_word = [word.strip().strip(',') for word in field_word]
     out_message = 'Line has been analyzed successfully to ' + str(item+1) + ' item(s).'
+    for k in range(len(de_word)):
+        if en_word[k] == '' or vi_word[k] == '':
+            out_message += ' Attention: this entry does misses English or Vietnamese word(s): ' + de_word[k]
     return de_word, type_word, field_word, en_word, vi_word, out_message
 
 ## Tests:
-#line = doc.paragraphs[2]
-#line = doc.paragraphs[16]
-#line = doc.paragraphs[19]
-#line = doc.paragraphs[25]
+##line = doc.paragraphs[2]
+##line = doc.paragraphs[16]
+##line = doc.paragraphs[19]
+##line = doc.paragraphs[25]
 #
+#line = doc.paragraphs[7]
 ##for phrase in line.runs:
 ##   print(phrase.text)
 ##   print(line.style.name)
@@ -183,12 +198,14 @@ def analyze_line(word_texts, wordcase_capitals, word_format_bolds, word_format_i
 #paragraph_style_italic = line.style.font.italic
 #word_texts = [part.text.strip() for part in line.runs if part.text.strip() != '']
 #word_style_names = [part.style.name for part in line.runs if part.text.strip() != '']
-#word_format_bolds, word_format_italics = read_format(word_style_names, paragraph_style_bold, paragraph_style_italic)
-##word_format_bolds = [part.style.font.bold for part in line.runs if part.text.strip() != '']
-##word_format_italics = [part.style.font.italic for part in line.runs if part.text.strip() != '']
+#word_style_bolds = [part.style.font.bold for part in line.runs if part.text.strip() != '']
+#word_style_italics = [part.style.font.italic for part in line.runs if part.text.strip() != '']
+#word_format_bolds, word_format_italics = read_format(word_style_bolds, word_style_italics, paragraph_style_bold, paragraph_style_italic)
 #
 #for k in range(len(word_style_names)):
 #    print(word_texts[k])
+#    print(paragraph_style_bold)
+#    print(paragraph_style_italic)
 #    print(word_style_names[k])
 #    print(word_format_bolds[k])
 #    print(word_format_italics[k])
@@ -202,6 +219,12 @@ def analyze_line(word_texts, wordcase_capitals, word_format_bolds, word_format_i
 #    print(newword_format_italics[k])
 #
 #de_word, type_word, field_word, en_word, vi_word, out_message = analyze_line(newword_texts, newwordcase_capitals, newword_format_bolds, newword_format_italics)
+#
+#print(de_word)
+#print(type_word)
+#print(field_word)
+#print(en_word)
+#print(vi_word)
 
 # Main operation:
 
@@ -216,8 +239,9 @@ for line in doc.paragraphs:
     paragraph_style_bold = line.style.font.bold
     paragraph_style_italic = line.style.font.italic
     word_texts = [part.text.strip() for part in line.runs if part.text.strip() != '']
-    word_style_names = [part.style.name for part in line.runs if part.text.strip() != '']
-    word_format_bolds, word_format_italics = read_format(word_style_names, paragraph_style_bold, paragraph_style_italic)
+    word_style_bolds = [part.style.font.bold for part in line.runs if part.text.strip() != '']
+    word_style_italics = [part.style.font.italic for part in line.runs if part.text.strip() != '']
+    word_format_bolds, word_format_italics = read_format(word_style_bolds, word_style_italics, paragraph_style_bold, paragraph_style_italic)
     print(word_texts)
     newword_texts, newwordcase_capitals, newword_format_bolds, newword_format_italics = re_parse(word_texts, word_format_bolds, word_format_italics)
     print(newword_texts)    
@@ -241,10 +265,6 @@ for line in doc.paragraphs:
 
 # encoding=utf8 by default
 # See: https://stackoverflow.com/questions/21129020/how-to-fix-unicodedecodeerror-ascii-codec-cant-decode-byte
-import sys
-reload(sys)
-sys.setdefaultencoding('utf8')
-import csv
 
 def WriteTableCsv(exportFile, table):
     with open(exportFile, 'wt') as csvfile:
@@ -256,8 +276,6 @@ table = []
 for k in range(len(de_words)):
     table.append([de_words[k], type_words[k], field_words[k], en_words[k], vi_words[k]])
 
-exportFile = 'result.csv'
-logFile = 'log.txt'
 
 WriteTableCsv(exportFile, table)
 with open(logFile, 'wt') as txtfile:
