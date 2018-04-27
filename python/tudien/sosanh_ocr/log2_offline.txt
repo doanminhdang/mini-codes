@@ -1,0 +1,204 @@
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: đóng rắn,
+Line has less than 4 elements, skipped. This line starts with: dụng (keo dán)
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 5 item(s).
+Line has less than 4 elements, skipped. This line starts with: Abbrechen des Flaschenbodens
+Line has less than 4 elements, skipped. This line starts with: SỨ_TT
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abbremsung
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abbremszeit
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 2 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abbruchbedingung
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abbruchkolonne
+Line has been analyzed successfully to 2 item(s).
+Line has less than 4 elements, skipped. This line starts with: phá huỷ (công trình)
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s). Attention: this entry does misses English or Vietnamese word(s): ABC
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has less than 4 elements, skipped. This line starts with: côn (bánh răng)
+Line has been analyzed successfully to 1 item(s).
+Line has less than 4 elements, skipped. This line starts with: (bánh răng)
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 3 item(s).
+Line has less than 4 elements, skipped. This line starts with: nước)
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abdrift
+Line has less than 4 elements, skipped. This line starts with: Abdriftbereich
+Line has been analyzed successfully to 2 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abdrosselung
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abdruckbarkeit
+Line has been analyzed successfully to 1 item(s).
+Line has less than 4 elements, skipped. This line starts with: Abdrückversuch
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abduktion
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Aberration
+Line has less than 4 elements, skipped. This line starts with: Aberrationskreis
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abfall
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: spillage
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: abfallarme Technologie
+Line has been analyzed successfully to 1 item(s). Attention: this entry does misses English or Vietnamese word(s): Abfallaufbereitung
+Line has less than 4 elements, skipped. This line starts with: recovery
+Line has been analyzed successfully to 1 item(s).
+Line has less than 4 elements, skipped. This line starts with: Abfallbecken der Sortiermaschine
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: SỨ_TT
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abfallbehälter ra
+Line has less than 4 elements, skipped. This line starts with: (đê chôn vĩnh viễn)
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abfallbeseitigung /■
+Line has less than 4 elements, skipped. This line starts with: Abfallbeseitigungsunternehmen
+Line has less than 4 elements, skipped. This line starts with: P_LIỆU
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abfallbörse
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abfallbrennstoff ra
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abfallcontainer ra
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abfalldesinfektion
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 5 item(s).
+Line has less than 4 elements, skipped. This line starts with: ăn lái (thuyền buồm, do gió)
+Line has been analyzed successfully to 1 item(s).
+Line has less than 4 elements, skipped. This line starts with: Abfüll- und Kappenaufsetzmaschine
+Line has less than 4 elements, skipped. This line starts with: B_BÌ
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has less than 4 elements, skipped. This line starts with: Abfüllung in Säcke von Hand
+Line has less than 4 elements, skipped. This line starts with: hand bagging
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abfüllwaage
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has less than 4 elements, skipped. This line starts with: (hộp giảm tốc)
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: KT_LẠNH
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abgasausströmöffnung
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: abgasbeheizt
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abgasdüse
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has less than 4 elements, skipped. This line starts with: Abgasfilterung
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: abgasgetrieben
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abgasgewicht
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abgaskrümmer
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abgasmeßstrecke
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abgasprüfgerät
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has less than 4 elements, skipped. This line starts with: abgehende Rufe gesperrt
+Line has less than 4 elements, skipped. This line starts with: outgoing calls barred
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has less than 4 elements, skipped. This line starts with: abgeklungene Radioaktivität
+Line has less than 4 elements, skipped. This line starts with: cooled-down radioactivity
+Line has less than 4 elements, skipped. This line starts with: abgekühlte Radioaktivität
+Line has less than 4 elements, skipped. This line starts with: cooled-down radioactivity
+Line has been analyzed successfully to 3 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has less than 4 elements, skipped. This line starts with: abgeleitete Anströmgeschwindigkeit
+Line has less than 4 elements, skipped. This line starts with: VTHK
+Line has less than 4 elements, skipped. This line starts with: abgeleitete Einheit
+Line has less than 4 elements, skipped. This line starts with: derived unit
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: abgelenkte Bohrung
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has less than 4 elements, skipped. This line starts with: sô chỉ
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: abgenutzt
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 3 item(s).
+Line has less than 4 elements, skipped. This line starts with: abgeplattetes Ellỉpsoỉd
+Line has less than 4 elements, skipped. This line starts with: oblate ellipsoid
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has less than 4 elements, skipped. This line starts with: abgereicherter Kernbrennstoff
+Line has less than 4 elements, skipped. This line starts with: KTH_NHÂN
+Line has less than 4 elements, skipped. This line starts with: abgerundete Anfahrdüse
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 1 item(s). Attention: this entry does misses English or Vietnamese word(s): abgeschalteter Thyristor
+Line has less than 4 elements, skipped. This line starts with: thyristor
+Line has been analyzed successfully to 1 item(s). Attention: this entry does misses English or Vietnamese word(s): abgeschalteter Transistor
+Line has less than 4 elements, skipped. This line starts with: transistor
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 2 item(s).
+Line has less than 4 elements, skipped. This line starts with: abgeschirmter Ausgang
+Line has less than 4 elements, skipped. This line starts with: guarded output
+Line has been analyzed successfully to 1 item(s).
+Line has less than 4 elements, skipped. This line starts with: abgeschirmter Eingang
+Line has less than 4 elements, skipped. This line starts with: guarded input
+Line has less than 4 elements, skipped. This line starts with: abgeschirmter Transformator m
+Line has less than 4 elements, skipped. This line starts with: KT_ĐIỆN
+Line has been analyzed successfully to 2 item(s).
+Line has less than 4 elements, skipped. This line starts with: abgestufter Grenzwert
+Line has less than 4 elements, skipped. This line starts with: stepped limiting value
+Line has less than 4 elements, skipped. This line starts with: abgestufter Höchstwert
+Line has less than 4 elements, skipped. This line starts with: stepped upper limiting value
+Line has less than 4 elements, skipped. This line starts with: abgestufter Mindestwert
+Line has less than 4 elements, skipped. This line starts with: stepped lower limiting value
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: abgestumpft
+Line has been analyzed successfully to 3 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has less than 4 elements, skipped. This line starts with: abgewalmtes Mansardendach
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: double pitch roof
+Line has less than 4 elements, skipped. This line starts with: abgewinkelter Schraubenzieher
+Line has less than 4 elements, skipped. This line starts with: CT_MÁY
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: (các đỉnh hình),
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).

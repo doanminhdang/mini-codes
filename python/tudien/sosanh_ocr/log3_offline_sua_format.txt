@@ -1,0 +1,169 @@
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 5 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abbremsung
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abbremszeit
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 2 item(s).
+Line has less than 4 elements, skipped. This line starts with: Abbruchbedingung
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abbruchkolonne
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s). Attention: this entry does misses English or Vietnamese word(s): ABC
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 2 item(s). Attention: this entry does misses English or Vietnamese word(s): Abdachen
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 3 item(s).
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abdrift
+Line has less than 4 elements, skipped. This line starts with: Abdriftbereich
+Line has been analyzed successfully to 2 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abdrosselung
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abdruckbarkeit
+Line has been analyzed successfully to 1 item(s).
+Line has less than 4 elements, skipped. This line starts with: Abdrückversuch
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abduktion
+Line has less than 4 elements, skipped. This line starts with: Aberration
+Line has less than 4 elements, skipped. This line starts with: Aberrationskreis
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 12 item(s). Attention: this entry does misses English or Vietnamese word(s): Abfall
+Line has been analyzed successfully to 1 item(s).
+Line has less than 4 elements, skipped. This line starts with: abfallarme Technologie
+Line has been analyzed successfully to 2 item(s). Attention: this entry does misses English or Vietnamese word(s): Abfallaufbereitung
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 2 item(s). Attention: this entry does misses English or Vietnamese word(s): Abfallbecken der Sortiermaschine Attention: this entry does misses English or Vietnamese word(s): Abfallbecken der Sortiermaschine
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abfallbehälter ra
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abfallbeseitigung f
+Line has less than 4 elements, skipped. This line starts with: Abfallbeseitigungsunternehmen
+Line has less than 4 elements, skipped. This line starts with: P_LIỆU
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abfallbörse f
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abfallbrennstoff ra
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abfallcontainer ra
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abfalldesinfektion f
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 6 item(s). Attention: this entry does misses English or Vietnamese word(s): abfallen
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 2 item(s). Attention: this entry does misses English or Vietnamese word(s): Abfüllung in Säcke von Hand Attention: this entry does misses English or Vietnamese word(s): Abfüllung in Säcke von Hand
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abfüllwaage
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 2 item(s). Attention: this entry does misses English or Vietnamese word(s): Abgangswelle
+Line has been analyzed successfully to 10 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has less than 4 elements, skipped. This line starts with: Abgasdüse
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has less than 4 elements, skipped. This line starts with: Abgasmeßstrecke
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: Abgasprüfgerät
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 2 item(s). Attention: this entry does misses English or Vietnamese word(s): abgehende Rufe gesperrt Attention: this entry does misses English or Vietnamese word(s): abgehende Rufe gesperrt
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: abgeklungene Radioaktivität
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 3 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 2 item(s). Attention: this entry does misses English or Vietnamese word(s): abgeleitete Einheit Attention: this entry does misses English or Vietnamese word(s): abgeleitete Einheit
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has less than 4 elements, skipped. This line starts with: abgelenkte Bohrung
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 2 item(s). Attention: this entry does misses English or Vietnamese word(s): abgelesener Wert
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 3 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has less than 4 elements, skipped. This line starts with: abgerundete Anfahrdüse
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 2 item(s). Attention: this entry does misses English or Vietnamese word(s): abgeschalteter Thyristor
+Line has been analyzed successfully to 2 item(s). Attention: this entry does misses English or Vietnamese word(s): abgeschalteter Transistor
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 2 item(s). Attention: this entry does misses English or Vietnamese word(s): abgeschirmter Ausgang Attention: this entry does misses English or Vietnamese word(s): abgeschirmter Ausgang
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 2 item(s). Attention: this entry does misses English or Vietnamese word(s): abgeschirmter Eingang Attention: this entry does misses English or Vietnamese word(s): abgeschirmter Eingang
+3rd word is not CAPITAL, syntax not compatible, skipped. This line starts with: abgeschirmter Transformator m
+Line has been analyzed successfully to 2 item(s).
+Line has been analyzed successfully to 2 item(s). Attention: this entry does misses English or Vietnamese word(s): abgestufter Grenzwert Attention: this entry does misses English or Vietnamese word(s): abgestufter Grenzwert
+Line has been analyzed successfully to 2 item(s). Attention: this entry does misses English or Vietnamese word(s): abgestufter Höchstwert Attention: this entry does misses English or Vietnamese word(s): abgestufter Höchstwert
+Line has been analyzed successfully to 2 item(s). Attention: this entry does misses English or Vietnamese word(s): abgestufter Mindestwert Attention: this entry does misses English or Vietnamese word(s): abgestufter Mindestwert
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 3 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 3 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 5 item(s).
+Line has been analyzed successfully to 1 item(s).
+Line has been analyzed successfully to 1 item(s).
