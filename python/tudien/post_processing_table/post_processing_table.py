@@ -59,7 +59,16 @@ text_to_move = [u'(các)',
                 u'(chất)',
                 u'(độ)',
                 u'(bọ)',
-                u'(sự, độ)'
+                u'(sự, độ)',
+                u'(vòng)',
+                u'(lông)',
+                u'(giá trị)',
+                u'(ký sinh)',
+                u'(thủ thuật)',
+                u'(nổi)',
+                u'(vật liệu)',
+                u'(môn)',
+                u'(có tính chất)'
                 ]
 
 if len(sys.argv) >= 4:
