@@ -359,7 +359,7 @@ def analyze_text(words, format_bolds, format_italics, de_condition={'bold':1, 'i
     table = []
     de_words = ['']
     en_words = ['']
-    if de_condition['bold'] != -1: de_condition['bold'] = not(not(de_condition['bold']))
+    if de_condition['bold'] != -1: de_condition['bold'] = not(not(de_condition['bold'])) # convert integer to boolean
     if de_condition['italic'] != -1: de_condition['italic'] = not(not(de_condition['italic']))
     
     last_format_bold = False
@@ -422,19 +422,32 @@ def export_words_to_csv(de_words, en_words, exportFile = 'result.csv'):
         table.append([de_words[k], en_words[k]])
     csv_tools.write_table_csv(exportFile, table)
 
-def docx_to_csv(inputFile, de_condition={'bold':1, 'italic':-1}, en_condition={'bold':0, 'italic':-1}, end_of_item_eol=False, eoi_bold_to_unbold=False, eoi_unbold_to_bold=True, eoi_italic_to_unitalic=False, eoi_unitalic_to_italic=False, exportFile = 'result.csv', logFile = 'log.txt'):
+def docx_to_csv(inputFile,  exportFile = 'result.csv', logFile = 'log.txt', **kwargs):
+    """
+    Example kwargs:
+    de_condition={'bold':1, 'italic':-1}, en_condition={'bold':0, 'italic':-1}, eoi_eol=False, eoi_bold_to_unbold=False, eoi_unbold_to_bold=True, eoi_italic_to_unitalic=False, eoi_unitalic_to_italic=False
+    """
+    # Set default keys if not provided
+    de_condition = kwargs['de_condition'] if 'de_condition' in kwargs else {'bold':1, 'italic':-1}
+    en_condition = kwargs['en_condition'] if 'en_condition' in kwargs else {'bold':0, 'italic':-1}
+    end_of_item_eol = kwargs['eoi_eol'] if 'eoi_eol' in kwargs else False
+    eoi_bold_to_unbold = kwargs['eoi_bold_to_unbold'] if 'eoi_bold_to_unbold' in kwargs else False
+    eoi_unbold_to_bold = kwargs['eoi_unbold_to_bold'] if 'eoi_unbold_to_bold' in kwargs else True
+    eoi_italic_to_unitalic = kwargs['eoi_italic_to_unitalic'] if 'eoi_italic_to_unitalic' in kwargs else False
+    eoi_unitalic_to_italic = kwargs['eoi_unitalic_to_italic'] if 'eoi_unitalic_to_italic' in kwargs else False
+
     extract_words, extract_format_bolds, extract_format_italics = read_docx(inputFile, exportFile, logFile)
     de_words, en_words = analyze_text(extract_words, extract_format_bolds, extract_format_italics, de_condition, en_condition, end_of_item_eol, eoi_bold_to_unbold, eoi_unbold_to_bold, eoi_italic_to_unitalic, eoi_unitalic_to_italic)
     export_words_to_csv(de_words, en_words, exportFile)
     # TODO: add logs
-    # TODO: change parameters to kwargs
 
 
 # Main operation, when calling: python Read_OCR.py input.docx output.csv
 if __name__ == "__main__":
     inputFile = str(sys.argv[1])
+    kwargs = {"de_condition":{'bold':1, 'italic':-1}, "en_condition":{'bold':0, 'italic':-1}, "eoi_eol":False, "eoi_bold_to_unbold":False, "eoi_unbold_to_bold":True, "eoi_italic_to_unitalic":False, "eoi_unitalic_to_italic":False}
     if len(sys.argv)>2:
         exportFile = str(sys.argv[2])
-        docx_to_csv(inputFile, exportFile)
+        docx_to_csv(inputFile, exportFile, de_condition={'bold':1, 'italic':-1}, en_condition={'bold':0, 'italic':-1}, eoi_eol=False, eoi_bold_to_unbold=False, eoi_unbold_to_bold=True, eoi_italic_to_unitalic=False, eoi_unitalic_to_italic=False)
     else:
-        docx_to_csv(inputFile)
+        docx_to_csv(inputFile, **kwargs)
