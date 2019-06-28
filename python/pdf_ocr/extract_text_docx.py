@@ -20,6 +20,8 @@ def para2text(p):
                     #id_processed.append(id_this_parent)
   return u''.join([r.text for r in rs])
 
+# Ref: https://github.com/python-openxml/python-docx/issues/328
+
 #>>> pr1.tag
 #'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}r'
 #>>> pr2.tag
@@ -63,3 +65,9 @@ print(para2text(doc2)
 #biến số này sẽ đọc và khối chương trình đó sẽ xử lý biến số mới này. Hình 2 cho ta thấy cách cấu tạo một biến số integer với tên là “đường kính”. Toán tử “địa chỉ” cho biết địa chỉ của một biến số.Hình 2: Cấu tạo một biến số
 
 # Idea to improve: first use para.text to collect text without textboxes and tables, then scan for textboxes and tables and append their text to the end.
+
+# Look for an element:
+
+# result = doc2._element.xpath("//*[contains(text(), 'one')]")
+# el = result[0]
+# pr = el.getparent()
