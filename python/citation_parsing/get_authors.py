@@ -1,6 +1,6 @@
 # Script to parse authors and affiliations from Scopus exported data
 # Dang Doan, 2020-09
-# Usage: pust csv files exported from Scopus to folder scopus_data, then run command: python3 get_authors.py
+# Usage: put csv files exported from Scopus to folder scopus_data, then run command: python3 get_authors.py
 # Output is file list_all_authors.csv
 # Other way: python3 get_authors.py data_folder output_file.csv
 
@@ -78,16 +78,18 @@ if __name__ == "__main__":
                 if 'Authors with affiliations' in headerTable:
                     affi_index = headerTable.index('Authors with affiliations')
                     affi_data = [row[affi_index] for row in table]
-                    for paper_affi in affi_data:
+                    for paper_affi in affi_data[1:]:
                         list_authors = paper_affi.split(';')
                         for author in list_authors:
-                            if not author in list_author_affi: # compare both name and affiliation
-                                list_author_affi.append(author)                
+                            if not author.strip() in list_author_affi: # compare both name and affiliation
+                                list_author_affi.append(author.strip())                
 
     # This command should be executed after all the author affiliations were collected
     list_author_affi.sort()
     list_author_combined, list_affi_combined = group_affi_by_author(list_author_affi)
     authorTable = export_table_combined(list_author_combined, list_affi_combined)
+    list_header = ['Author', 'Number of affiliations', 'Affiliations']
+    authorTable.insert(0, list_header)
     csv_tools.write_table_csv(exportFile, authorTable)
 
 
