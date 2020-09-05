@@ -40,7 +40,7 @@ if __name__ == "__main__":
                     year_index = headerTable.index('Year')
                     access_index = [title_index, author_index, sourceTitle_index, publisher_index, year_index, link_index]
                     for row in table[1:]:
-                        if not row[title_index] in [item[1] for item in list_papers]:
+                        if not row[title_index] in [item[0] for item in list_papers]:
                             list_papers.append([row[k] for k in access_index])
 
     # This command should be executed after all the papers were collected
